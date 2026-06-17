@@ -1,0 +1,17 @@
+title: ChatGPT / Claude 国内充值代充教程合集 2026
+description: 国内支付宝微信充值 ChatGPT Plus、Claude Pro、Claude Code 全攻略，海外卡 / 礼品卡 / 代充对比，亲测可用渠道 payai.plus。
+url: https://youngyangyang04.github.io
+baseurl: /gpt-daichong
+lang: zh-CN
+
+theme: minima
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+  - jekyll-readme-index
+
+# 不参与构建的文件
+exclude:
+  - README_dev.md
