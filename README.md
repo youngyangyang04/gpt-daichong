@@ -105,13 +105,13 @@ PayAI.plus 口碑还不错
 
 充值页面：
 
-![国内ChatGPT充值教程2026示意图](https://file1.kamacoder.com/i/web/2026-06-05_15-05-16.jpg)
+![国内ChatGPT充值教程2026示意图](https://file1.kamacoder.com/i/web/2026-06-08_09-42-27.jpg)
 
 支付完成后会收到激活码：
 
-![国内ChatGPT充值教程2026示意图](https://file1.kamacoder.com/i/web/2026-06-05_15-07-08.jpg)
+![国内ChatGPT充值教程2026示意图](https://file1.kamacoder.com/i/web/2026-06-08_09-43-32.jpg)
 
-支付成功后会收到卡密，卡密后直接充值就行。
+支付成功后会收到卡密，然后直接充值就行。
 
 网站有客服联系方式，不懂的直接联系客服就好。
 

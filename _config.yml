@@ -6,6 +6,13 @@ lang: zh-CN
 
 theme: minima
 
+# 顶部不自动列出所有页面（首页 README 里已有完整教程目录）
+header_pages: []
+
+# 提取标题时删掉正文里重复的 H1，避免出现两个标题
+titles_from_headings:
+  strip_title: true
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
