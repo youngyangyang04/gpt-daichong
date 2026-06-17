@@ -1,11 +1,11 @@
-# 【亲测可用】支付宝/微信充值ChatGPT-5 Claude4.7|代充完整指南（官方推荐）
+# 【亲测可用】支付宝/微信充值ChatGPT-5.5 Claude Fable 5|代充完整指南（官方推荐）
 
 
-> **本教程已经更新到26年5月份，保证安全可用**
+> **本教程已经更新到2026年6月，保证安全可用**
 
 **强烈建议收藏本页，以后你充值GPT也会用上的！**
 
-随着 **GPT-5.5** 上线，以及 **Gemini 3、Claude 4.7** 等 AI 大模型陆续更新，越来越多国内用户希望体验最新 AI 能力。但由于 **支付渠道限制 / 区域限制 / 银行风控** 等问题，国内用户在官网订阅 ChatGPT Plus 或购买 GPT-5 API 时往往会遇到：
+随着 **GPT-5.5** 上线，以及 **Claude Fable 5、Opus 4.8** 等 AI 大模型陆续更新，越来越多国内用户希望体验最新 AI 能力。但由于 **支付渠道限制 / 区域限制 / 银行风控** 等问题，国内用户在官网订阅 ChatGPT Plus 或购买 GPT-5.5 API 时往往会遇到：
 
 - ❌ 无法绑定银行卡
 - ❌ 卡被拒绝、支付失败
@@ -13,6 +13,26 @@
 - ❌ OpenAI 账号因支付异常被锁
 
 为此，本篇为你整理出 **2026 年最新、稳定、安全的所有充值方案**，并附上我亲测可用的渠道。
+
+---
+
+# 📚 完整教程目录（按需阅读）
+
+下面是更详细的分场景教程，遇到具体问题点进去看：
+
+**ChatGPT / GPT-5.5**
+
+- [国内ChatGPT充值教程2026｜支付宝微信订阅GPT-5.5 Plus全方案](./docs/chatgpt-recharge-guide.md)
+- [怎么购买ChatGPT-5.5？国内信用卡、PayPal、代付全方案](./docs/chatgpt-buy-guide.md)
+- [ChatGPT充值方法推荐2026｜国内开通Plus、GPT-5.5订阅怎么选](./docs/chatgpt-recharge-method.md)
+- [ChatGPT Plus和Codex是什么关系？Codex怎么用、要不要单独付费](./docs/chatgpt-plus-codex.md)
+- [ChatGPT如何让别人代付？三种代付方式实测（朋友代付/礼品卡/代充）](./docs/chatgpt-pay-on-behalf.md)
+
+**Claude / Claude Code**
+
+- [Claude Pro充值教程2026｜国内支付宝微信订阅Claude Fable 5全攻略](./docs/claude-recharge-guide.md)
+- [Claude国内充值全指南2026｜Pro、API、Claude Code付款方法](./docs/claude-buy-guide.md)
+- [Claude Code能支付人民币吗？国内充值、苹果购买、支付宝微信付款全解答](./docs/claude-code-rmb.md)
 
 ---
 
@@ -132,7 +152,7 @@ PayAI.plus 口碑还不错
 - **第二优先：苹果美区 / Google Play —— 完全正规**
 - **第三优先：代充值 —— 最省心、成功率最高、适合小白用户**
 
-如果你只是想尽快体验 GPT-5.5、Claude 4.7、Gemini 3 等最新模型，那么使用 **安全代充平台** 是最快捷的方式。
+如果你只是想尽快体验 GPT-5.5、Claude Fable 5、Opus 4.8 等最新模型，那么使用 **安全代充平台** 是最快捷的方式。
 
 👉 再次附上靠谱代充地址：[PayAI.plus](https://payai.plus/)
 
