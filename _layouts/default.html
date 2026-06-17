@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'zh-CN' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <style>
+    :root{--fg:#24292f;--muted:#57606a;--link:#0969da;--border:#d0d7de;--bg:#fff;--code:#f6f8fa;}
+    *{box-sizing:border-box;}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;color:var(--fg);background:var(--bg);line-height:1.75;font-size:16px;}
+    a{color:var(--link);text-decoration:none;}
+    a:hover{text-decoration:underline;}
+    .wrap{max-width:760px;margin:0 auto;padding:0 20px;}
+    .site-header{border-bottom:1px solid var(--border);}
+    .site-header .wrap{display:flex;align-items:center;min-height:56px;}
+    .site-title{font-weight:600;font-size:15px;color:var(--fg);}
+    main{padding:32px 0 48px;}
+    main h1:first-child{margin-top:0;}
+    h1{font-size:1.75em;line-height:1.35;margin:1.2em 0 .7em;}
+    h2{font-size:1.35em;margin-top:1.8em;border-bottom:1px solid var(--border);padding-bottom:.3em;}
+    h3{font-size:1.12em;margin-top:1.5em;}
+    img{max-width:100%;height:auto;border:1px solid var(--border);border-radius:6px;}
+    blockquote{margin:1em 0;padding:.4em 1em;color:var(--muted);border-left:4px solid var(--border);background:var(--code);border-radius:0 6px 6px 0;}
+    table{border-collapse:collapse;margin:1em 0;display:block;overflow-x:auto;}
+    th,td{border:1px solid var(--border);padding:6px 12px;text-align:left;white-space:nowrap;}
+    th{background:var(--code);}
+    code{background:var(--code);padding:.15em .4em;border-radius:4px;font-size:.9em;}
+    hr{border:0;border-top:1px solid var(--border);margin:2em 0;}
+    ul,ol{padding-left:1.4em;}
+    .site-footer{border-top:1px solid var(--border);color:var(--muted);font-size:14px;padding:24px 0;}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap"><a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
+  </header>
+  <main><div class="wrap">{{ content }}</div></main>
+  <footer class="site-footer">
+    <div class="wrap">充值入口：<a href="https://payai.plus/">payai.plus</a> · <a href="{{ '/' | relative_url }}">返回首页</a></div>
+  </footer>
+</body>
+</html>
