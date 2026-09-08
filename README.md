@@ -1,6 +1,6 @@
-# 【亲测可用】支付宝/微信充值ChatGPT-5.6、Codex 5.6 Sol、Terra、Luna｜代充完整指南
+# 【亲测可用】支付宝/微信充值 ChatGPT Plus/Pro（GPT-6 Astra）、Codex 5.6 Sol、Terra、Luna｜代充完整指南
 
-> 本文更新于 2026 年 9 月 4 日。**如果你对有帮助的话，希望给一个小⭐️⭐️支持一下，本教程持续更新**。
+> 本文更新于 2026 年 9 月 8 日。**如果你对有帮助的话，希望给一个小⭐️⭐️支持一下，本教程持续更新**。
 
 人在国内，没有海外信用卡，怎么把自己的 ChatGPT 账号升级成 Plus/Pro（5x/20X）？
 
@@ -43,8 +43,11 @@
 
 充值购买的是 **ChatGPT Plus/Pro（5x/20X） 会员**，不是单独购买某一个模型。充值成功后，可以使用哪些模型和功能，以 OpenAI 当时向该套餐、账号和地区实际开放的内容为准。
 
+OpenAI 已发布最新旗舰模型 **GPT-6 Astra**，适用于复杂推理、编程、研究和端到端任务。模型会按套餐、账号和地区逐步开放，是否可用请以 ChatGPT 账号中的模型列表为准。详情可查看 [OpenAI 官方 GPT-6 Astra 模型说明](https://developers.openai.com/api/docs/models/gpt-6-astra)。
+
 持续复测记录：
 
+- **2026 年 9 月 8 日**：GPT-6 Astra 发布后更新模型说明；充值购买的仍是 Plus/Pro 会员，具体模型权限以账号实际开放情况为准。
 - **2026 年 7 月 31 日**：PayAI 页面、微信支付和卡密充值流程再次检查，方案仍可用。
 - **2026 年 7 月 9 日**：GPT-5.6 Sol、Terra、Luna 发布后复测，方案仍可用。
 - **2026 年 4 月 24 日**：GPT-5.5 发布后复测，方案仍可用。
@@ -205,10 +208,10 @@ PayAI.plus 当前页面标注支持企业发票。具体抬头、税号、开票
 
 ## 更多专题教程
 
-### ChatGPT / GPT-5.6
+### ChatGPT / GPT-6 Astra
 
-- [国内 ChatGPT 充值教程：支付宝、微信订阅 GPT-5.6 Plus 全方案](./docs/chatgpt-recharge-guide.md)
-- [怎么购买 ChatGPT-5.6：国内信用卡、PayPal、代付全方案](./docs/chatgpt-buy-guide.md)
+- [国内 ChatGPT 充值教程：支付宝、微信订阅 Plus/Pro、使用 GPT-6 Astra 全方案](./docs/chatgpt-recharge-guide.md)
+- [怎么购买 ChatGPT Plus/Pro、使用 GPT-6 Astra：国内信用卡、PayPal、代付全方案](./docs/chatgpt-buy-guide.md)
 - [ChatGPT 充值方法推荐：国内开通 Plus 怎么选](./docs/chatgpt-recharge-method.md)
 - [ChatGPT Plus 和 Codex 是什么关系：Codex 怎么用、要不要单独付费](./docs/chatgpt-plus-codex.md)
 - [ChatGPT 如何让别人代付：朋友代付、礼品卡和代充](./docs/chatgpt-pay-on-behalf.md)
