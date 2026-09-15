@@ -56,9 +56,9 @@ PayPal 是 Anthropic 支持的官方支付方式。但和信用卡一样，你�
 
 激活码模式：你只需要支付拿码，然后在官方页面激活，全程不泄露账号密码。
 
-我用的PayAI.plus，亲测还是很靠谱的，有一次充会员失败，该退款也都退了。
+我用的是文中链接的第三方平台，亲测还是很靠谱的，有一次充会员失败，该退款也都退了。
 
-👉 **[PayAI.plus](https://payai.plus/)**
+👉 **[第三方充值服务](https://payai.plus/)**
 
 操作流程截图：
 
@@ -115,7 +115,7 @@ Claude Code 走 API 计费，和 Pro 订阅是独立的。但 Pro 订阅包含�
 
 如果你只是想尽快体验 Claude Fable 5、Claude Code 这些新能力：
 
-👉 **Claude Pro 代充入口：[PayAI.plus](https://payai.plus/)**
+👉 **[Claude Pro 第三方代充入口](https://payai.plus/)**
 
 ## 相关阅读
 

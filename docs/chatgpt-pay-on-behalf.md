@@ -83,7 +83,7 @@ ChatGPT Plus 订阅走的是 OpenAI 海外收银台，**国内的银联卡、支
 
 我自己用的是这个入口，亲测靠谱，有一次充值失败也正常退款了：
 
-👉 **[ChatGPT Plus 代充入口 payai.plus](https://payai.plus/)**
+👉 **[ChatGPT Plus 第三方代充入口](https://payai.plus/)**
 
 **适合谁：** 没海外卡、身边也没合适的朋友、想快速开通的大多数国内用户。
 
@@ -138,7 +138,7 @@ ChatGPT 想让别人代付，三条路：**朋友海外卡直付（要信任）�
 
 没合适朋友、想最快开通的录友，激活码代充是目前最稳的方案：
 
-👉 **[ChatGPT Plus 代充入口 payai.plus](https://payai.plus/)**
+👉 **[ChatGPT Plus 第三方代充入口](https://payai.plus/)**
 
 ## 相关阅读
 

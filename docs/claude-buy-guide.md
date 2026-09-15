@@ -86,9 +86,9 @@ Anthropic 支持 PayPal 付款。但和信用卡一样，你的 PayPal 得绑海
 
 激活码模式：你只需要支付拿码，然后在官方页面激活，全程不泄露账号密码。
 
-我用的PayAI.plus，亲测还是很靠谱的，有一次充会员失败，该退款也都退了。
+我用的是文中链接的第三方平台，亲测还是很靠谱的，有一次充会员失败，该退款也都退了。
 
-👉 **[PayAI.plus](https://payai.plus/)**
+👉 **[第三方充值服务](https://payai.plus/)**
 
 操作流程截图：
 
@@ -189,7 +189,7 @@ Pro 是订阅制，$20/月，在 claude.ai 网页和 App 使用。API 是按量�
 
 Pro/Max 订阅最快的方式：
 
-👉 **Claude Pro 代充入口：[PayAI.plus](https://payai.plus/)**
+👉 **[Claude Pro 第三方代充入口](https://payai.plus/)**
 
 ## 相关阅读
 

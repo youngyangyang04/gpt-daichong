@@ -118,7 +118,7 @@ Claude Code 能不能用人民币，记住一句话：**走 Pro 订阅就能用�
 
 没海外卡又想最快开通的录友，激活码代充是目前最稳的人民币方案：
 
-👉 **Claude Pro 代充入口（支付宝/微信）：[PayAI.plus](https://payai.plus/)**
+👉 **[Claude Pro 第三方代充入口（支付宝/微信）](https://payai.plus/)**
 
 ## 相关阅读
 

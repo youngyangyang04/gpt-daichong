@@ -178,7 +178,7 @@ OpenAI 收到的是苹果 App Store 的订阅付款，整个链路相对稳定�
 
 我自己用的是这个入口：
 
-👉 **[ChatGPT Plus 代充入口 payai.plus](https://payai.plus/)**
+👉 **[ChatGPT Plus 第三方代充入口](https://payai.plus/)**
 
 充值页面长这样：
 
@@ -275,7 +275,7 @@ ChatGPT 充值这件事，别追求“看起来最便宜”，要追求“能稳
 
 我目前更推荐这个方式：
 
-👉 **[ChatGPT Plus 代充入口 payai.plus](https://payai.plus/)**
+👉 **[ChatGPT Plus 第三方代充入口](https://payai.plus/)**
 
 按页面步骤来，不需要提供账号密码，支付后拿激活码完成充值。
 
