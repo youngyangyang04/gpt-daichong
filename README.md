@@ -43,7 +43,7 @@ OpenAI 目前已经恢复 GPT Pro 订阅，不过套餐额度由此前的 20X �
 
 下面讲解的获取卡密和充值流程，因此以下说明以该平台为例。
 
-![第三方平台 ChatGPT Plus 充值页面](https://file1.kamacoder.com/i/web/2026-07-31_15-45-58.jpg)
+![第三方平台 ChatGPT Plus 充值页面](https://file1.kamacoder.com/i/web/2026-07-31_15-45-58.jpg?v=20261022)
 
 👉 **[进入第三方服务页面充值 ChatGPT Plus/Pro](https://payai.plus/)**
 
@@ -53,7 +53,7 @@ OpenAI 目前已经恢复 GPT Pro 订阅，不过套餐额度由此前的 20X �
 
 充值购买的是 **ChatGPT Plus/Pro（5X/10X）会员**，不是单独购买某一个模型。充值成功后，可以使用哪些模型和功能，以 OpenAI 当时向该套餐、账号和地区实际开放的内容为准。
 
-OpenAI 已发布最新旗舰模型 **GPT-6 Astra**，适用于复杂推理、编程、研究和端到端任务。模型会按套餐、账号和地区逐步开放，是否可用请以 ChatGPT 账号中的模型列表为准。详情可查看 [OpenAI 官方 GPT-6 Astra 模型说明](https://developers.openai.com/api/docs/models/gpt-6-astra)。
+OpenAI 已发布最新旗舰模型 **GPT-6 Astra**，适用于复杂推理、编程、研究和端到端任务。模型会按套餐、账号和地区逐步开放，是否可用请以 ChatGPT 账号中的模型列表为准。
 
 持续复测记录：
 
@@ -79,7 +79,7 @@ OpenAI 已发布最新旗舰模型 **GPT-6 Astra**，适用于复杂推理、编
 
 充值遇到任何问题，可以和客服联系
 
-![第三方服务自助充值流程](https://file1.kamacoder.com/i/web/2026-07-31_15-55-52.jpg)
+![第三方服务自助充值流程](https://file1.kamacoder.com/i/web/2026-07-31_15-55-52.jpg?v=20261022)
 
 ### 优点
 
@@ -213,21 +213,6 @@ OpenAI 已发布最新旗舰模型 **GPT-6 Astra**，适用于复杂推理、编
 不包含。ChatGPT Plus 是 ChatGPT 产品订阅，OpenAI API 使用另一套独立计费体系。
 
 
-## 更多专题教程
-
-### ChatGPT / GPT-6 Astra
-
-- [国内 ChatGPT 充值教程：支付宝、微信订阅 Plus/Pro、使用 GPT-6 Astra 全方案](./docs/chatgpt-recharge-guide.md)
-- [怎么购买 ChatGPT Plus/Pro、使用 GPT-6 Astra：国内信用卡、PayPal、代付全方案](./docs/chatgpt-buy-guide.md)
-- [ChatGPT 充值方法推荐：国内开通 Plus 怎么选](./docs/chatgpt-recharge-method.md)
-- [ChatGPT Plus 和 Codex 是什么关系：Codex 怎么用、要不要单独付费](./docs/chatgpt-plus-codex.md)
-- [ChatGPT 如何让别人代付：朋友代付、礼品卡和代充](./docs/chatgpt-pay-on-behalf.md)
-
-### Claude / Claude Code
-
-- [国内Claude Code Opus 5 API接入流程](https://github.com/youngyangyang04/claude-code-ChatGPT-api)
-- [Claude Pro 充值教程：国内支付宝、微信订阅全攻略](./docs/claude-recharge-guide.md)
-- [Claude Code 能否使用人民币支付：国内充值与苹果购买](./docs/claude-code-rmb.md)
 
 ## 总结
 

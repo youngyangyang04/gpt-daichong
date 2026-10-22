@@ -38,13 +38,13 @@ tags:
 
 购买的是 ChatGPT 订阅，而不是某个模型的永久使用权。ChatGPT 的 Chat、Work 与 Codex 入口也不能混为一谈。
 
-当前 Work/Codex 的模型包括 **GPT-6 Astra、GPT-6.1 Sol、GPT-6 Sol 和 GPT-6 Luna**；其中 GPT-6.1 Sol、GPT-6 Sol、GPT-6 Luna 不在 Chat 中提供。实际选项取决于套餐、客户端和开放进度。[官方模型说明](https://learn.chatgpt.com/docs/models)
+当前 Work/Codex 的模型包括 **GPT-6 Astra、GPT-6.1 Sol、GPT-6 Sol 和 GPT-6 Luna**；其中 GPT-6.1 Sol、GPT-6 Sol、GPT-6 Luna 不在 Chat 中提供。实际选项取决于套餐、客户端和开放进度。
 
-如果主要用来写代码，可以先看 [Plus 与 Codex 的关系](./chatgpt-plus-codex.md)，再决定是否付费升级。
+如果主要用来写代码，可以先看 Plus 与 Codex 的关系，再决定是否付费升级。
 
 ## 先选套餐，再选支付方式
 
-轻度使用可以先体验免费账号；需要更多模型和Codex入口时再看Plus。Plus为20美元/月，Pro当前有100、200、500美元/月档位。权益与额度以[官方定价](https://learn.chatgpt.com/docs/pricing)和账号用量页为准。
+轻度使用可以先体验免费账号；需要更多模型和Codex入口时再看Plus。Plus为20美元/月，Pro当前有100、200、500美元/月档位。权益与额度以官方定价和账号用量页为准。
 
 ## ChatGPT有哪些付款路径？
 
@@ -100,7 +100,7 @@ tags:
 
 **Plus不够用就直接买最高档Pro吗？**
 
-先看真实用量和任务类型，再比较当前Pro权益。升级不等于每个功能都无限使用，详见[Pro教程](./chatgpt-pro-recharge-guide.md)。
+先看真实用量和任务类型，再比较当前Pro权益。升级不等于每个功能都无限使用，详见Pro教程。
 
 ## 付款前后要检查什么？
 
@@ -108,11 +108,3 @@ tags:
 - 核对个人账号、工作区、套餐名称和有效期，避免充错账号。
 - 不把“自助充值”理解成官方授权或零风险保证。
 - 保存订单与实际到账记录；续费和退款要按原付款渠道处理。
-
-## 相关阅读
-
-- 各渠道完整对比：[国内ChatGPT充值教程2026：支付宝微信订阅全方案](./chatgpt-recharge-guide.md)
-- 没海外卡想让人帮付：[ChatGPT如何让别人代付？三种代付方式对比](./chatgpt-pay-on-behalf.md)
-- 只想搞清楚怎么付款：[怎么购买ChatGPT Plus？国内信用卡、PayPal、代付全方案](./chatgpt-buy-guide.md)
-- Plus 还能用 Codex 写代码：[ChatGPT Plus和Codex是什么关系？Codex怎么用一篇讲清](./chatgpt-plus-codex.md)
-- 也想充 Claude 看这篇：[Claude Pro充值教程2026全攻略](./claude-recharge-guide.md)

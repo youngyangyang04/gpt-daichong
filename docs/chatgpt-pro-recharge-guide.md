@@ -49,7 +49,7 @@ Plus频繁到用量上限时，可以比较Pro，但先看自己耗在哪类任�
 
 ## ChatGPT Pro现在有几个档位？
 
-官方定价页当前列出 **100、200、500美元/月** 三个Pro价格档，500美元档提供相应的Ultrafast访问权益。具体模型、用量及其他功能要看账号和当前套餐说明。[官方定价](https://learn.chatgpt.com/docs/pricing)
+官方定价页当前列出 **100、200、500美元/月** 三个Pro价格档，500美元档提供相应的Ultrafast访问权益。具体模型、用量及其他功能要看账号和当前套餐说明。
 
 | 套餐 | 官方月费 | 购买前的判断 |
 | --- | --- | --- |
@@ -70,9 +70,9 @@ Plus频繁到用量上限时，可以比较Pro，但先看自己耗在哪类任�
 
 购买的是 ChatGPT 订阅，而不是某个模型的永久使用权。ChatGPT 的 Chat、Work 与 Codex 入口也不能混为一谈。
 
-当前 Work/Codex 的模型包括 **GPT-6 Astra、GPT-6.1 Sol、GPT-6 Sol 和 GPT-6 Luna**；其中 GPT-6.1 Sol、GPT-6 Sol、GPT-6 Luna 不在 Chat 中提供。实际选项取决于套餐、客户端和开放进度。[官方模型说明](https://learn.chatgpt.com/docs/models)
+当前 Work/Codex 的模型包括 **GPT-6 Astra、GPT-6.1 Sol、GPT-6 Sol 和 GPT-6 Luna**；其中 GPT-6.1 Sol、GPT-6 Sol、GPT-6 Luna 不在 Chat 中提供。实际选项取决于套餐、客户端和开放进度。
 
-如果主要用来写代码，可以先看 [Plus 与 Codex 的关系](./chatgpt-plus-codex.md)，再决定是否付费升级。
+如果主要用来写代码，可以先看 Plus 与 Codex 的关系，再决定是否付费升级。
 
 ## 什么时候值得从Plus升级？
 
@@ -139,10 +139,3 @@ Plus频繁到用量上限时，可以比较Pro，但先看自己耗在哪类任�
 - 核对个人账号、工作区、套餐名称和有效期，避免充错账号。
 - 不把“自助充值”理解成官方授权或零风险保证。
 - 保存订单与实际到账记录；续费和退款要按原付款渠道处理。
-
-## 相关阅读
-
-- 先比较所有支付路径：[ChatGPT充值方法推荐2026：国内开通Plus怎么选](./chatgpt-recharge-method.md)
-- Plus或Pro怎么接入Codex：[ChatGPT Plus和Codex是什么关系？Codex怎么用](./chatgpt-plus-codex.md)
-- 没海外卡怎么让别人帮付：[ChatGPT如何让别人代付？朋友代付、礼品卡和代充](./chatgpt-pay-on-behalf.md)
-- 国内充值完整方案：[国内ChatGPT充值教程2026](./chatgpt-recharge-guide.md)

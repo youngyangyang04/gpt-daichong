@@ -40,7 +40,7 @@ title: Claude国内充值全指南｜Pro、Max、API与Claude Code付款
 
 ## 2026年10月，Claude有哪些当前模型？
 
-官方模型目录目前列出 **Claude Fable 5.1、Opus 5.5、Sonnet 5.5、Haiku 5.5**。它们分别面向复杂推理与长任务、编程及知识工作、速度与能力平衡、低延迟高频任务。[官方模型目录](https://platform.claude.com/docs/en/about-claude/models/overview)
+官方模型目录目前列出 **Claude Fable 5.1、Opus 5.5、Sonnet 5.5、Haiku 5.5**。它们分别面向复杂推理与长任务、编程及知识工作、速度与能力平衡、低延迟高频任务。
 
 API 中存在某个模型，不代表每个 Claude 订阅都能无限使用它。聊天和 Claude Code 内能选哪些模型、还剩多少额度，要看自己的账号页面。
 
@@ -54,11 +54,11 @@ API 中存在某个模型，不代表每个 Claude 订阅都能无限使用它�
 | Max 20x | 200美元/月 | 个人重度使用，不是团队席位套餐 |
 | Claude API | 按实际调用计费 | 在程序或服务中调用模型 |
 
-上表为官方网页标价，税费和移动端价格可能不同。5x、20x 比较的是相对 Pro 的会话用量，仍有其他用量限制，不代表智能提升倍数或无限使用。[Claude定价](https://claude.com/pricing)、[Max用量说明](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
+上表为官方网页标价，税费和移动端价格可能不同。5x、20x 比较的是相对 Pro 的会话用量，仍有其他用量限制，不代表智能提升倍数或无限使用。
 
 ## Claude支持哪些付款方式？PayPal能用吗？
 
-Claude 官方接受符合要求的信用卡和借记卡；**不接受 PayPal、Venmo 这类第三方支付处理服务**。发卡地区、账单地址、余额和 3DS 验证都可能影响付款，海外卡也不保证成功。[官方支付说明](https://support.claude.com/en/articles/9402418-why-was-my-card-declined)
+Claude 官方接受符合要求的信用卡和借记卡；**不接受 PayPal、Venmo 这类第三方支付处理服务**。发卡地区、账单地址、余额和 3DS 验证都可能影响付款，海外卡也不保证成功。
 
 人民币付款给代充商、用人民币购买礼品卡，与直接在 Claude 官网使用人民币结账是不同的事情。官方或商店实际提供什么币种和付款工具，应看自己的结账页面。
 
@@ -83,19 +83,19 @@ Claude 官方接受符合要求的信用卡和借记卡；**不接受 PayPal、V
 
 旧版充值页面仅作为历史示意，不代表当前套餐、价格或授权步骤：
 
-![Claude第三方充值历史页面](https://file1.kamacoder.com/i/web/2026-06-11_19-42-59.jpg)
+![Claude第三方充值历史页面](https://file1.kamacoder.com/i/web/2026-06-11_19-42-59.jpg?v=20261022)
 
-![Claude第三方卡密历史订单](https://file1.kamacoder.com/i/web/2026-06-11_19-47-48.jpg)
+![Claude第三方卡密历史订单](https://file1.kamacoder.com/i/web/2026-06-11_19-47-48.jpg?v=20261022)
 
 ## Claude Code CLI一定要充值API吗？
 
-**不一定。终端和支持的 IDE 都可以登录 Claude Pro/Max 账号使用订阅额度**，并非只有网页端能用订阅。选择 API/Console 认证时，才按对应 API 账单计费。[官方订阅接入说明](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
+**不一定。终端和支持的 IDE 都可以登录 Claude Pro/Max 账号使用订阅额度**，并非只有网页端能用订阅。选择 API/Console 认证时，才按对应 API 账单计费。
 
 已经有 Pro/Max 时，先检查 Claude Code 当前登录的账号和计费方式。环境中的 `ANTHROPIC_API_KEY` 可能让请求走 API 计费；需要切换时，按官方说明使用 `/login` 重新选择认证方式。
 
 ## Claude API在哪里充值？
 
-使用 [Claude Console账单页](https://platform.claude.com/settings/billing)，在具有 Admin 或 Billing 权限的组织中购买 credits，并检查用量和自动充值设置。App Store 礼品卡不能直接兑换成 Console 余额。[官方API付款说明](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
+使用 Claude Console账单页，在具有 Admin 或 Billing 权限的组织中购买 credits，并检查用量和自动充值设置。App Store 礼品卡不能直接兑换成 Console 余额。
 
 Pro 订阅额度不能当作 API 余额。当前 Max、Team 另有月度 API credits 权益，需要关联 Console 组织并按规则领取；这部分 credits 有到期和用途限制，不能拿来支付 Claude Code 或 Claude App 的额外用量。领取和使用规则请查看对应官方说明。
 
@@ -119,10 +119,3 @@ Pro 订阅额度不能当作 API 余额。当前 Max、Team 另有月度 API cre
 - 核对个人账号、工作区、套餐名称和有效期，避免充错账号。
 - 不把“自助充值”理解成官方授权或零风险保证。
 - 保存订单与实际到账记录；续费和退款要按原付款渠道处理。
-
-## 相关阅读
-
-- 更详细的方案对比：[Claude Pro充值教程2026全攻略](./claude-recharge-guide.md)
-- Claude Code 能不能用人民币：[Claude Code能支付人民币吗？国内充值全解答](./claude-code-rmb.md)
-- 也想充 ChatGPT 看这篇：[国内ChatGPT充值教程2026全方案](./chatgpt-recharge-guide.md)
-- ChatGPT 怎么付款：[怎么购买ChatGPT Plus？国内信用卡、PayPal、代付全方案](./chatgpt-buy-guide.md)

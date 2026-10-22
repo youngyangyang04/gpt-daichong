@@ -36,15 +36,15 @@ title: 怎么购买ChatGPT Plus？信用卡、PayPal、代付说明
 
 购买的是 ChatGPT 订阅，而不是某个模型的永久使用权。ChatGPT 的 Chat、Work 与 Codex 入口也不能混为一谈。
 
-当前 Work/Codex 的模型包括 **GPT-6 Astra、GPT-6.1 Sol、GPT-6 Sol 和 GPT-6 Luna**；其中 GPT-6.1 Sol、GPT-6 Sol、GPT-6 Luna 不在 Chat 中提供。实际选项取决于套餐、客户端和开放进度。[官方模型说明](https://learn.chatgpt.com/docs/models)
+当前 Work/Codex 的模型包括 **GPT-6 Astra、GPT-6.1 Sol、GPT-6 Sol 和 GPT-6 Luna**；其中 GPT-6.1 Sol、GPT-6 Sol、GPT-6 Luna 不在 Chat 中提供。实际选项取决于套餐、客户端和开放进度。
 
-如果主要用来写代码，可以先看 [Plus 与 Codex 的关系](./chatgpt-plus-codex.md)，再决定是否付费升级。
+如果主要用来写代码，可以先看 Plus 与 Codex 的关系，再决定是否付费升级。
 
 ## 到哪里购买？
 
-登录 [ChatGPT官网](https://chatgpt.com/)，在账号设置中查看可用的升级选项；也可以查看官方移动App内的订阅。不要把旧域名或某一个按钮位置写成唯一购买入口。
+登录 ChatGPT官网，在账号设置中查看可用的升级选项；也可以查看官方移动App内的订阅。不要把旧域名或某一个按钮位置写成唯一购买入口。
 
-Plus官方月费20美元，Pro有100、200、500美元月费档位。最终币种、税费和可用权益以结账页为准。[官方定价](https://learn.chatgpt.com/docs/pricing)
+Plus官方月费20美元，Pro有100、200、500美元月费档位。最终币种、税费和可用权益以结账页为准。
 
 ## ChatGPT有哪些付款路径？
 
@@ -105,10 +105,3 @@ Plus官方月费20美元，Pro有100、200、500美元月费档位。最终币�
 - 核对个人账号、工作区、套餐名称和有效期，避免充错账号。
 - 不把“自助充值”理解成官方授权或零风险保证。
 - 保存订单与实际到账记录；续费和退款要按原付款渠道处理。
-
-## 相关阅读
-
-- 各渠道完整对比：[国内ChatGPT充值教程2026：支付宝微信订阅全方案](./chatgpt-recharge-guide.md)
-- 哪种方式适合你：[ChatGPT充值方法推荐2026：国内开通Plus怎么选](./chatgpt-recharge-method.md)
-- Plus 和 Codex 什么关系：[ChatGPT Plus和Codex是什么关系？Codex怎么用一篇讲清](./chatgpt-plus-codex.md)
-- 也想充 Claude 看这篇：[Claude国内充值全指南2026](./claude-buy-guide.md)
