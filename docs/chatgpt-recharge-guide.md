@@ -41,9 +41,9 @@ Plus 为20美元/月；Pro 当前列有100、200、500美元/月档位。先根�
 
 推荐使用 [payai.plus](https://payai.plus/) ，他是是独立安全的第三方服务平台，与 OpenAI、Anthropic 官方订阅入口不同。
 
-![ChatGPT第三方充值历史页面示意](https://file1.kamacoder.com/i/web/2026-06-08_09-42-27.jpg?v=20261022)
+![ChatGPT第三方充值历史页面示意](../assets/images/2026-06-08_09-42-27.jpg?v=20261022)
 
-![第三方卡密历史订单示意](https://file1.kamacoder.com/i/web/2026-06-08_09-43-32.jpg?v=20261022)
+![第三方卡密历史订单示意](../assets/images/2026-06-08_09-43-32.jpg?v=20261022)
 
 ## 付款前后要检查什么？
 

@@ -83,9 +83,9 @@ Claude 官方接受符合要求的信用卡和借记卡；**不接受 PayPal、V
 
 旧版充值页面仅作为历史示意，不代表当前套餐、价格或授权步骤：
 
-![Claude第三方充值历史页面](https://file1.kamacoder.com/i/web/2026-06-11_19-42-59.jpg?v=20261022)
+![Claude第三方充值历史页面](../assets/images/2026-06-11_19-42-59.jpg?v=20261022)
 
-![Claude第三方卡密历史订单](https://file1.kamacoder.com/i/web/2026-06-11_19-47-48.jpg?v=20261022)
+![Claude第三方卡密历史订单](../assets/images/2026-06-11_19-47-48.jpg?v=20261022)
 
 ## Claude Code CLI一定要充值API吗？
 

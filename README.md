@@ -43,7 +43,7 @@ OpenAI 目前已经恢复 GPT Pro 订阅，不过套餐额度由此前的 20X �
 
 下面讲解的获取卡密和充值流程，因此以下说明以该平台为例。
 
-![第三方平台 ChatGPT Plus 充值页面](https://file1.kamacoder.com/i/web/2026-07-31_15-45-58.jpg?v=20261022)
+![第三方平台 ChatGPT Plus 充值页面](./assets/images/2026-07-31_15-45-58.jpg?v=20261022)
 
 👉 **[进入第三方服务页面充值 ChatGPT Plus/Pro](https://payai.plus/)**
 
@@ -79,7 +79,7 @@ OpenAI 已发布最新旗舰模型 **GPT-6 Astra**，适用于复杂推理、编
 
 充值遇到任何问题，可以和客服联系
 
-![第三方服务自助充值流程](https://file1.kamacoder.com/i/web/2026-07-31_15-55-52.jpg?v=20261022)
+![第三方服务自助充值流程](./assets/images/2026-07-31_15-55-52.jpg?v=20261022)
 
 ### 优点
 
