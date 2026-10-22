@@ -1,5 +1,5 @@
 ---
-description: 国内购买Claude Pro、Claude Max、Claude API完整指南：国内信用卡能不能付、苹果礼品卡怎么充值、PayPal怎么用、Claude Code怎么代充，所有Claude付款问题一次讲清。2026年亲测可用方案，附详细操作步骤和避坑建议，帮国内用户快速订阅Claude。
+description: 更新Claude Fable 5.1、Opus 5.5、Sonnet 5.5和Haiku 5.5，讲清Pro、Max、API付款区别，纠正PayPal及Claude Code CLI计费误区。
 keywords:
   - claude国内充值
   - claude付款
@@ -18,8 +18,8 @@ keywords:
   - Claude API购买
   - 国内支付Claude
   - Claude代充
-  - Claude Fable 5
-  - Claude Opus 4.8
+  - Claude Fable 5.1
+  - Claude Opus 5.5
   - Anthropic充值
   - Claude订阅
   - 国内怎么买Claude
@@ -29,171 +29,100 @@ tags:
   - Claude Pro
   - Claude Code
   - AI工具充值
-title: Claude国内充值全指南2026｜Claude Pro、Claude API、Claude Code付款方法｜苹果礼品卡、代充、PayPal一次讲清
+title: Claude国内充值全指南｜Pro、Max、API与Claude Code付款
 ---
 
-# Claude国内怎么充值？Pro、API、Code付款问题全解答
+# Claude国内充值全指南｜Pro、Max、API与Claude Code付款
 
-> **2026年8月更新，所有方案亲测可用**
+> **2026年10月20日更新：已核对官方模型与套餐说明；支付方式、可用地区和实际额度以账号页面为准。**
 
-Claude Fable 5 发布后，越来越多国内用户想订阅 Claude Pro、充 Claude API、用 Claude Code，但一到付款就卡住——国内卡付不了，PayPal 也不通，不知道该怎么充值。**这篇文章把所有 Claude 付款相关的问题一次性讲清楚。**
+给Claude付款前，先确认买的是聊天与Claude Code订阅，还是程序调用所需的API用量。它们不能按同一条充值流程处理。
 
-## Claude有哪些需要付费的产品？
+## 2026年10月，Claude有哪些当前模型？
 
-先搞清楚你要充什么，不同产品付款方式不一样：
+官方模型目录目前列出 **Claude Fable 5.1、Opus 5.5、Sonnet 5.5、Haiku 5.5**。它们分别面向复杂推理与长任务、编程及知识工作、速度与能力平衡、低延迟高频任务。[官方模型目录](https://platform.claude.com/docs/en/about-claude/models/overview)
 
-| 产品 | 价格 | 付款位置 | 充值难点 |
-|------|------|----------|----------|
-| Claude Pro | $20/月 | anthropic.com | 国内卡付不了 |
-| Claude Max 5x | $100/月 | anthropic.com | 国内卡付不了 |
-| Claude Max 20x | $200/月 | anthropic.com | 国内卡付不了 |
-| Claude API | 按量计费 | console.anthropic.com | 需要海外卡预充值 |
-| Claude Code | 走API计费 | 同API | 同API |
+API 中存在某个模型，不代表每个 Claude 订阅都能无限使用它。聊天和 Claude Code 内能选哪些模型、还剩多少额度，要看自己的账号页面。
 
-**Pro/Max 是订阅制，API 是充值制，Claude Code 用的是 API 额度。** Claude 订阅费用最低 $20/月（Pro），Max 档 $100-$200/月，API 按用量计费。搞清楚自己要充哪个，再往下看。
+## Claude Pro、Max和API有什么区别？
 
-## Claude国内怎么充值？五种方式
+| 产品 | 网页端价格 | 主要用途 |
+| --- | --- | --- |
+| Free | 免费 | 先试用，再判断是否需要付费 |
+| Pro | 月付20美元；年付200美元 | 更多使用量，包含Claude Code |
+| Max 5x | 100美元/月 | 比Pro更高的会话用量 |
+| Max 20x | 200美元/月 | 个人重度使用，不是团队席位套餐 |
+| Claude API | 按实际调用计费 | 在程序或服务中调用模型 |
 
-### 方式一：海外信用卡（最稳，有卡就行）
+上表为官方网页标价，税费和移动端价格可能不同。5x、20x 比较的是相对 Pro 的会话用量，仍有其他用量限制，不代表智能提升倍数或无限使用。[Claude定价](https://claude.com/pricing)、[Max用量说明](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
 
-如果你有 Visa、Mastercard、American Express 这些海外发行的信用卡，直接在 Anthropic 官网支付。**最稳定，不存在风控问题。**
+## Claude支持哪些付款方式？PayPal能用吗？
 
-现实情况是：大部分国内用户没有海外信用卡。部分双币卡偶尔能过，但成功率不稳定，续费时也可能被拒。
+Claude 官方接受符合要求的信用卡和借记卡；**不接受 PayPal、Venmo 这类第三方支付处理服务**。发卡地区、账单地址、余额和 3DS 验证都可能影响付款，海外卡也不保证成功。[官方支付说明](https://support.claude.com/en/articles/9402418-why-was-my-card-declined)
 
-### 方式二：PayPal（需要绑外币卡）
+人民币付款给代充商、用人民币购买礼品卡，与直接在 Claude 官网使用人民币结账是不同的事情。官方或商店实际提供什么币种和付款工具，应看自己的结账页面。
 
-Anthropic 支持 PayPal 付款。但和信用卡一样，你的 PayPal 得绑海外卡才能付美元。国内 PayPal 默认只能绑银联卡，走不通。
+## 苹果手机和安卓能怎么订阅？
 
-**PayPal 不解决"国内卡付不了"的问题，它只是换了个支付通道，最终还是要外币卡。**
+在所在地区能下载的官方 App 内查看可用订阅；付款前核对商店价格、税费、续费周期和目标账号。礼品卡必须与商店地区匹配，余额是否可用于该订阅以商店结账结果为准。
 
-### 方式三：苹果礼品卡充值购买Claude（正规，很多录友选这个）
+商店地区应符合实际使用条件；礼品卡面值需覆盖结账显示的订阅费和税费。App Store、Google Play 与网页端价格和套餐可能不同。
 
-苹果用户可以通过 App Store 订阅 Claude Pro，**这是国内用户最常问的一种方式**。操作步骤：
+已有网页订阅时，先检查原订阅状态，避免又在 App 内开一份。通过商店订阅的，应到对应商店管理续费和取消。
 
-1. 注册一个**美区 Apple ID**（用海外邮箱注册，地区选美国）
-2. 购买**美区 Apple 礼品卡**（淘宝、拼多多都有卖，注意选信誉好的店）
-3. 在 App Store 里**兑换礼品卡**，余额到账
-4. 下载 Claude iOS App，在 App 内订阅 Pro
-5. 苹果从礼品卡余额扣款，Anthropic 看到的是苹果代收，不存在风控
+## 第三方卡密充值怎么操作？
 
-**优点：** 完全合规，安全性高，不需要海外信用卡
-**缺点：** 前期准备工作多——注册美区 ID、买礼品卡、切商店区域，对不熟悉苹果生态的朋友来说操作门槛不低
-**注意：** 礼品卡买多了用不掉会浪费，建议按月买，$20 面值刚好够一个月 Pro
+没有适用的官方支付方式时，部分用户会考虑人民币卡密服务。文中保留的 [第三方充值入口](https://payai.plus/) 是独立服务，与 OpenAI、Anthropic 官方订阅入口不同。
 
-### 方式四：代充平台（最省事，我用的是这个）
+1. 核对商品是个人订阅、共享账号还是其他服务，以及对应套餐和时长。
+2. 确认当前人民币报价、付款方式、账号条件和失败退款规则后再下单。
+3. 获取卡密后，先核对充值页面域名与授权要求，再按指引操作。
+4. 完成后回到产品自己的订阅页面，检查套餐和有效期，保存订单记录。
 
-不想折腾海外卡和美区账号的话，代充是最省事的路。关键是要选对平台——不靠谱的代充会要你账号密码，这很危险。
+**卡密是第三方交付凭证。** 购买前应了解授权方式，不向不可信页面提供密码、验证码、Cookie、Session Token 或 API Key。本次更新核对了公开资料，未重新完成第三方付款实测。
 
-激活码模式：你只需要支付拿码，然后在官方页面激活，全程不泄露账号密码。
+旧版充值页面仅作为历史示意，不代表当前套餐、价格或授权步骤：
 
-我用的是文中链接的第三方平台，亲测还是很靠谱的，有一次充会员失败，该退款也都退了。
+![Claude第三方充值历史页面](https://file1.kamacoder.com/i/web/2026-06-11_19-42-59.jpg)
 
-👉 **[第三方充值服务](https://payai.plus/)**
+![Claude第三方卡密历史订单](https://file1.kamacoder.com/i/web/2026-06-11_19-47-48.jpg)
 
-操作流程截图：
+## Claude Code CLI一定要充值API吗？
 
-充值页面：
+**不一定。终端和支持的 IDE 都可以登录 Claude Pro/Max 账号使用订阅额度**，并非只有网页端能用订阅。选择 API/Console 认证时，才按对应 API 账单计费。[官方订阅接入说明](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
 
-![Claude Pro充值教程2026示意图](https://file1.kamacoder.com/i/web/2026-06-11_19-42-59.jpg) 
+已经有 Pro/Max 时，先检查 Claude Code 当前登录的账号和计费方式。环境中的 `ANTHROPIC_API_KEY` 可能让请求走 API 计费；需要切换时，按官方说明使用 `/login` 重新选择认证方式。
 
-![Claude Pro充值教程2026示意图](https://file1.kamacoder.com/i/web/2026-06-11_19-45-28.jpg)
+## Claude API在哪里充值？
 
-支付后获得激活码：
+使用 [Claude Console账单页](https://platform.claude.com/settings/billing)，在具有 Admin 或 Billing 权限的组织中购买 credits，并检查用量和自动充值设置。App Store 礼品卡不能直接兑换成 Console 余额。[官方API付款说明](https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage)
 
-![Claude Pro充值教程2026示意图](https://file1.kamacoder.com/i/web/2026-06-11_19-47-48.jpg)
-
-然后点击 【去充值】，跟着流程走就行了，很快就充完了。
-
-如果有任何疑问，网站有客服联系方式，不懂直接加客服，沟通还是挺有效率的。
-
-
-### 方式五：虚拟信用卡（风险最高，不推荐）
-
-虚拟信用卡门槛低但风险高：支付被拒、卡被冻结、账号被暂停都是常见问题。**不建议尝试。**
-
-## 怎么给Claude API充值？
-
-Claude API 的充值和 Pro 订阅是分开的，**API 充值在 console.anthropic.com**，不在 Claude 的聊天界面里。
-
-充值流程：
-
-1. 登录 console.anthropic.com
-2. 进入 Settings → Billing
-3. 添加支付方式并预充值
-
-**支付方式的问题和上面一样**——国内信用卡付不了，PayPal 需要外币卡。API 预充值金额最低 $5，用多少扣多少。
-
-如果你没有海外卡，API 充值目前没有特别好的代充方案（因为 API 是和账号绑定的预充值模式，不像 Pro 可以用激活码）。**建议有 API 需求的朋友想办法搞一张海外卡，或者走 App Store 订阅 Pro 档位来获取 Claude Code 的使用额度。**
-
-## Claude Code代充怎么弄？如何充值Claude Code？
-
-很多录友单独搜「如何充值 Claude Code」，其实**Claude Code 的计费走 API，所以充值 Claude Code 本质上就是给 Claude API 充值。**
-
-但有个思路：如果你主要是用 Claude Code 写代码，可以订阅 Claude Pro（$20/月），Pro 订阅包含 Claude Code 网页端的使用额度。虽然不是无限用，但对日常开发来说够用了。
-
-Claude Code CLI 版本用的是 API 额度，需要在 console.anthropic.com 单独充值。
-
-## 五种方式对比
-
-| 方式 | 安全性 | 成功率 | 操作难度 | 适用产品 | 推荐度 |
-|------|--------|--------|----------|----------|--------|
-| 海外信用卡 | 极高 | 极高 | 高 | Pro/Max/API | 有卡首选 |
-| PayPal | 极高 | 高 | 中 | Pro/Max | 有外币卡可试 |
-| 苹果礼品卡 | 高 | 高 | 中 | Pro/Max | 苹果用户可选 |
-| 代充平台 | 中 | 极高 | 最低 | Pro/Max | 没外币卡首选 |
-| 虚拟信用卡 | 低 | 不稳定 | 低 | 不推荐 | 别碰 |
+Pro 订阅额度不能当作 API 余额。当前 Max、Team 另有月度 API credits 权益，需要关联 Console 组织并按规则领取；这部分 credits 有到期和用途限制，不能拿来支付 Claude Code 或 Claude App 的额外用量。领取和使用规则请查看对应官方说明。
 
 ## 常见问题
 
 **Claude Pro和ChatGPT Plus选哪个？**
 
-Claude Pro 的长文本理解和代码能力很强，特别是 Claude Code 是目前最强的编程 Agent。ChatGPT Plus 的多模态和插件生态更丰富。有条件都开，预算有限按使用场景选。
+用自己的真实任务比较写作、文件分析、代码修改和用量。Claude Code与Codex都应看任务结果、客户端和套餐限制，不宜直接宣称某一个永远是“最强Agent”。
 
-**苹果礼品卡在哪买？**
+**苹果手机开了Pro，电脑CLI能用吗？**
 
-淘宝、拼多多搜"美区 Apple 礼品卡"，选信誉好的店。面值建议买 $25 的（$20 订阅费 + 苹果可能的税费）。
+在CLI登录同一个有效Pro账号并选择订阅认证即可使用对应权益，无需仅因换成CLI就另充API。
 
-**代充会不会封号？**
+**代充一定不会影响账号吗？**
 
-走激活码模式的代充不需要登录你的账号，封号风险极低。前提是选正规平台。
+不能保证。应核对支付来源、授权和订阅条件；“激活码”这个名称本身不能证明官方背书。
 
-**Claude Code 能支付人民币吗？**
+## 付款前后要检查什么？
 
-Anthropic 官方只收美元，不直接支持人民币。想用人民币付，路子是：通过代充平台用支付宝/微信付人民币拿激活码开 Pro（Pro 自带 Claude Code 额度），或者用人民币在淘宝买美区礼品卡走 App Store。API 那条线还是得海外卡，没法直接刷人民币。
-
-**Claude Code 能用苹果手机购买吗？**
-
-能，但要分清楚。苹果手机上下载 Claude App、用美区 Apple ID + 礼品卡订阅 Pro，就能用 Pro 自带的 Claude Code 额度——这条路最适合只想在手机上付钱的录友。但 Claude Code CLI（命令行版）走的是 API 额度，目前只能在 console.anthropic.com 用海外卡充，苹果手机付不了这部分。
-
-**Claude API和Pro有什么区别？**
-
-Pro 是订阅制，$20/月，在 claude.ai 网页和 App 使用。API 是按量计费，在代码里调用 Claude，适合开发者。两者独立计费，互不影响。
-
-**订阅后能随时取消吗？**
-
-可以，在 Anthropic 官网 Settings → Billing 里取消，当前周期还能继续用。
-
-## 保护账号安全
-
-不管用什么方式充值，这几条必须遵守：
-
-- **绝对不要把 Anthropic 账号密码告诉任何人**
-- 不在陌生网站输入 API Key
-- 来源不明的虚拟卡一律不用
-- 不要频繁切换登录地区、支付方式或设备
-- 不在不可信平台登录你的 Anthropic 账号
-
-## 总结
-
-国内给 Claude 充值，核心原则：**有海外卡走官方，没海外卡苹果用户走礼品卡、非苹果用户走代充。** PayPal 和国内信用卡都解决不了根本问题，虚拟卡风险太大。
-
-Pro/Max 订阅最快的方式：
-
-👉 **[Claude Pro 第三方代充入口](https://payai.plus/)**
+- 不把密码、验证码、Cookie、Session Token 或 API Key 发给客服或不可信页面。
+- 核对个人账号、工作区、套餐名称和有效期，避免充错账号。
+- 不把“自助充值”理解成官方授权或零风险保证。
+- 保存订单与实际到账记录；续费和退款要按原付款渠道处理。
 
 ## 相关阅读
 
 - 更详细的方案对比：[Claude Pro充值教程2026全攻略](./claude-recharge-guide.md)
 - Claude Code 能不能用人民币：[Claude Code能支付人民币吗？国内充值全解答](./claude-code-rmb.md)
 - 也想充 ChatGPT 看这篇：[国内ChatGPT充值教程2026全方案](./chatgpt-recharge-guide.md)
-- ChatGPT 怎么付款：[怎么购买ChatGPT-5.6？国内信用卡、PayPal、代付全方案](./chatgpt-buy-guide.md)
+- ChatGPT 怎么付款：[怎么购买ChatGPT Plus？国内信用卡、PayPal、代付全方案](./chatgpt-buy-guide.md)

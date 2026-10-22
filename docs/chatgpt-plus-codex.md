@@ -1,6 +1,6 @@
 ---
-title: ChatGPT Plus和Codex是什么关系？2026年Codex 5.6 Sol、Terra、Luna怎么用、要不要单独付费
-description: 一篇讲清ChatGPT Plus和Codex的关系：Codex是OpenAI的AI编程智能体，可通过同一ChatGPT账号使用网页版、IDE扩展、Codex CLI和GitHub集成。文章说明Codex 5.6 的 Sol、Terra、Luna 模型、套餐与额度的关系，以及国内没有海外卡时如何用支付宝微信开通ChatGPT Plus会员。
+title: ChatGPT Plus和Codex是什么关系？模型、额度与付费说明
+description: 讲清ChatGPT Plus与Codex的关系，更新GPT-6 Astra、GPT-6.1 Sol、Luna、Free与Go可用条件、订阅额度和API计费区别。
 keywords:
   - ChatGPT Plus和Codex的关系
   - Codex是什么
@@ -10,8 +10,8 @@ keywords:
   - OpenAI Codex
   - Codex CLI
   - codex编程智能体
-  - GPT-5.6 Codex
-  - Codex 5.6 Sol Terra Luna
+  - GPT-6.1 Sol
+  - GPT-6 Astra Sol Luna
   - Codex IDE扩展
   - ChatGPT Plus充值
   - 国内开通ChatGPT Plus
@@ -26,140 +26,70 @@ tags:
   - ChatGPT充值
 ---
 
-# ChatGPT Plus和Codex是什么关系？Codex 5.6 Sol、Terra、Luna怎么用，一篇讲清
+# ChatGPT Plus和Codex是什么关系？模型、额度与付费说明
 
-> **2026年8月更新，内容亲测可用**
+> **2026年10月20日更新：已核对官方模型与套餐说明；支付方式、可用地区和实际额度以账号页面为准。**
 
-最近很多录友问我：**Codex 是不是要单独买？我开了 ChatGPT Plus 能直接用 Codex 吗？** 这俩到底什么关系，网上说法乱七八糟。这篇文章一次讲清楚。
+**Plus包含Codex使用权益，但“Codex必须先买Plus”和“使用Codex永远不额外收费”都不准确。** 免费入口、订阅额度、额外credits和API认证需要分开看。
 
-先给结论：**Codex 不是单独收费的产品，它是 OpenAI 的 AI 编程智能体，包含在 ChatGPT 订阅里。你开了 ChatGPT Plus，用同一个账号就能直接用 Codex，不用再额外付一笔钱。**
+## Codex是什么？
 
-下面把细节展开。
+Codex是OpenAI的编程智能体，可以读取项目、修改文件、运行命令和测试。桌面端、CLI、IDE和云端的执行环境不同：本地任务使用本机环境，云任务使用配置好的云环境，并非所有任务都在云沙箱里运行。
 
-## Codex 是什么？
+## Plus包含什么？免费账号能用吗？
 
-Codex 是 OpenAI 推出的 **AI 编程智能体（coding agent）**，简单说就是一个能帮你写代码、改 bug、读项目、提 PR 的 AI。
+Plus包含相应的Codex权益；Free、Go也有受开放进度限制的桌面端Luna入口。不同套餐的模型、客户端和额度并不相同，免费账号不应被描述为“完全不能用”。[官方套餐与入口说明](https://learn.chatgpt.com/docs/pricing)
 
-它和你平时在 ChatGPT 对话框里贴段代码让它解释不一样。Codex 是真正的"智能体"：你给它一个任务，它会在云端的沙箱环境里自己读代码、跑命令、改文件，最后把结果给你。
+| 使用方式 | 费用关系 |
+| --- | --- |
+| ChatGPT账号登录 | 使用套餐对应的模型与用量 |
+| 购买额外credits | 按账号支持的规则扩展用量，可能额外付费 |
+| API Key认证 | 按API账单计费，不是扣订阅内的API余额 |
 
-Codex 背后是 OpenAI 专门为编程优化的模型（GPT-5 系列的 Codex 版本），针对真实软件工程任务做了强化训练，写代码、跑测试、定位问题的能力比通用模型更强。
+CLI和IDE支持ChatGPT登录或API Key认证；不能只凭“用了CLI”判断走哪条账单。[官方认证说明](https://learn.chatgpt.com/docs/auth)
 
-Codex 目前主要有这几种用法：
+## 2026年10月，Codex用哪些模型？
 
-- **网页版**：在 ChatGPT 里直接打开 Codex，派任务给它在云端跑
-- **IDE 扩展**：装到 VS Code 这类编辑器里，在你写代码的地方直接用
-- **Codex CLI**：开源的命令行工具，在终端里调用 Codex
-- **GitHub 集成**：绑定仓库后，它能直接读你的代码、提 Pull Request
+当前模型包括GPT-6 Astra、GPT-6.1 Sol、GPT-6 Sol与GPT-6 Luna。GPT-6.1 Sol可用于复杂编程和持续工作，Luna适合明确、重复的任务；可见选项以账号和客户端为准。
 
-不管哪种入口，**登录的都是你的 ChatGPT 账号**——这就是它和 ChatGPT Plus 的关系核心。
+GPT-6.1 Sol、GPT-6 Sol、GPT-6 Luna在Work和Codex中提供，不在Chat中提供。[官方模型说明](https://learn.chatgpt.com/docs/models)
 
-## ChatGPT Plus 和 Codex 到底什么关系？
+在CLI中可用`/model`查看当前可选模型。模型切换不会自动授予文件访问、网络或其他执行权限。
 
-很多人把 ChatGPT、ChatGPT Plus、Codex 三个词搞混，其实层级很清楚：
+## GPT-5.5还能在Codex里选吗？
 
-- **ChatGPT**：OpenAI 的产品，免费版也能用，但模型弱、额度低
-- **ChatGPT Plus**：ChatGPT 的付费订阅，$20/月；可用模型、额度和功能以套餐、地区及产品页面显示为准
-- **Codex**：ChatGPT 订阅里的一个功能/工具，**Plus 及以上的订阅用户都能用**
+GPT-5.5已于2026年10月14日从ChatGPT登录的Codex中退役；API和API Key认证会话不受这次退役影响。旧配置中固定使用该模型的，需要改成账号当前可用的模型。[官方退役说明](https://learn.chatgpt.com/docs/models#gpt-55-retirement)
 
-也就是说，**Codex 是 ChatGPT Plus 这张"会员卡"里附带的能力之一**，不是另一个要单独掏钱的产品。你订了 Plus，登录 ChatGPT 账号，Codex 的网页版、IDE 扩展、CLI 就都能用了，按你的订阅档位给对应的使用额度。
+## Plus的额度怎么计算？
 
-打个比方：ChatGPT Plus 像视频网站的会员，Codex 像会员里附带的"4K 画质"功能——你买的是会员，功能是会员自带的，不用为这个功能再单独付费。
+任务复杂度、上下文、所选模型与运行方式都会影响消耗。Work与Codex共享相应用量，不能把套餐理解为固定次数的所有任务通票。到用量页看余额和重置时间，再决定等待重置、加购或升级。
 
-## Codex 要单独付费吗？
+Pro也不只一个200美元档：当前有100、200、500美元月费档位，详见[官方定价](https://learn.chatgpt.com/docs/pricing)与[Pro充值教程](./chatgpt-pro-recharge-guide.md)。
 
-**不用。** 再强调一遍，这是大家最容易误解的点。
+## 怎样开始使用？
 
-- 你**没有** ChatGPT 订阅 → 用不了 Codex（或额度极低）
-- 你订了 **ChatGPT Plus（$20/月）** → 可以用 Codex，有一定额度
-- 你订了 **ChatGPT Pro（$200/月）** → 可以用 Codex，额度大得多，适合重度使用
-- 团队/企业版 → 按席位分配额度
+1. 选择账号可用的Codex客户端或官方入口。
+2. 确认使用ChatGPT登录还是API Key认证。
+3. 查看当前模型和剩余用量，先完成一个小任务。
+4. 需要更高权益时，再到官方套餐页比较升级选项。
 
-所以"要不要为 Codex 单独付费"这个问题本身就问错了。**正确的问法是：我该订哪个档位的 ChatGPT，才能舒服地用 Codex。** 对大多数个人开发者来说，**ChatGPT Plus 就够入门体验 Codex 了**，真觉得额度不够再升 Pro。
+## 国内付款怎么处理？
 
-## Codex 5.6 和 GPT-5.6 是什么关系？
-
-也有人问：我订 Plus 是为了用 GPT-5.6，那 Codex 5.6 用的是什么模型？
-
-可以这么理解：**GPT-5.6 是新一代模型，而 Codex 5.6 提供 Sol、Terra、Luna 三个面向编程任务的模型**。它们服务于不同的代码任务和使用场景；你在 ChatGPT 或 Codex 中实际看到哪些选项，取决于套餐、地区和产品入口。
-
-对你来说不用纠结底层用哪个模型，**只要订阅档位够，对应的能力就都开放给你了**。
-
-## 想用 Codex，第一步是开通 ChatGPT Plus
-
-讲到这就清楚了：**用 Codex 的前提，是先有一个能用的 ChatGPT Plus 会员。**
-
-但国内用户卡就卡在这一步——**付不了钱**：
-
-- 国内银联单标卡，OpenAI 直接拒
-- 带 Visa/Mastercard 标识的国内双币卡，成功率不稳定，今天能付明天可能被拒
-- App Store 订阅要美区 Apple ID + 美区礼品卡，前期准备繁琐
-- 乱用虚拟信用卡，轻则支付失败，重则触发风控暂停账号
-
-如果你手里有**海外发行的信用卡或绑了外币卡的 PayPal**，那最省事，直接在 OpenAI 官网订阅就行，不用往下看了。
-
-但大多数录友没有海外卡，这时候**靠谱的代充是最快的路子**。
-
-## 国内没有海外卡？代充开通 Plus，照样用 Codex
-
-如果你不想折腾海外卡、美区账号，代充是门槛最低的方式。但**一定要选靠谱的平台**，否则盗号、不到账都可能发生。
-
-我自己用的是文中链接的第三方平台，流程是"支付拿激活码 → 官方页面激活"，**全程不需要提供 OpenAI 账号密码**，比较安全：
-
-👉 **[第三方代充入口（按步骤操作即可）](https://payai.plus/)**
-
-充值页面：
-
-![ChatGPT Plus开通Codex代充示意图](https://file1.kamacoder.com/i/web/2026-06-08_09-42-27.jpg)
-
-支付完成后会收到激活码：
-
-![ChatGPT Plus开通Codex代充示意图](https://file1.kamacoder.com/i/web/2026-06-08_09-43-32.jpg)
-
-拿到卡密后按页面教程直接充值就行，网站有客服联系方式，不懂的直接加客服。开通 Plus 之后，再用同一个 ChatGPT 账号登录 Codex（网页版 / IDE 扩展 / CLI），就能开始用了。
+已有Plus时通常先登录验证权益，无需再买一份“Codex会员”。需要订阅可看[国内充值教程](./chatgpt-recharge-guide.md)。文中的[第三方卡密入口](https://payai.plus/)为独立服务，购买前应核对授权与到账条件，卡密属于第三方交付凭证。
 
 ## 常见问题
 
-**开了 ChatGPT Plus，Codex 在哪打开？**
+**Plus能用Codex，为什么还出现付费提示？**
 
-网页版在 ChatGPT 侧边栏找 Codex 入口；想在编辑器里用就装 Codex 的 IDE 扩展；想在终端里用就装 Codex CLI——三种入口登录的都是你这个 Plus 账号。
+检查是否耗尽用量、误选API认证，或正在使用需要额外credits的能力。不要直接重复购买订阅。
 
-**Codex 有免费的吗？**
+**第三方充值会改变Codex模型能力吗？**
 
-没订阅的话用不了或额度极低。要稳定使用，至少需要 ChatGPT Plus。
-
-**Plus 的 Codex 额度够用吗？**
-
-入门、日常小任务够用。如果你天天让它跑大型重构、长时间任务，额度会比较紧，这种情况建议上 Pro。
-
-**代充开通的 Plus 能正常用 Codex 吗？**
-
-能。Codex 是你订阅自带的功能，只要 Plus 是正常开通的，登录账号就能用，和怎么付的款没关系。走激活码模式的代充不需要登录你的账号，封号风险也低。
-
-**ChatGPT Plus 和 Pro 用 Codex 差在哪？**
-
-主要差在额度和优先级。Plus $20/月适合个人入门体验；Pro $200/月额度大、适合重度、长任务使用。
-
-## 保护账号安全的几条铁律
-
-不管你用哪种方式开通，这几点必须遵守：
-
-- **绝对不要把 OpenAI 账号密码告诉任何人**
-- 不在非官方页面输入 API Key
-- 来源不明的虚拟卡一律不用
-- 不要频繁切换登录地区、支付方式或设备
-- 不在不可信平台登录你的 OpenAI 账号
-
-## 总结
-
-ChatGPT Plus 和 Codex 的关系一句话讲完：**Codex 是 ChatGPT 订阅自带的 AI 编程智能体，不单独收费，开了 Plus 用同一个账号就能用。** 想用 Codex，先把 ChatGPT Plus 开起来就行。
-
-国内没有海外卡的录友，开通 Plus 最快的方式是靠谱代充：
-
-👉 **[推荐的第三方服务](https://payai.plus/)**
+判断依据是账号最终到账的套餐和实际权限，不是商家宣传的模型名称。应在官方产品内核验。
 
 ## 相关阅读
 
 - 国内怎么给 ChatGPT 充值：[国内ChatGPT充值教程2026：支付宝微信订阅全方案](./chatgpt-recharge-guide.md)
-- 怎么购买、用什么付款：[怎么购买ChatGPT-5.6？国内信用卡、PayPal、代付全方案](./chatgpt-buy-guide.md)
+- 怎么购买、用什么付款：[怎么购买ChatGPT Plus？国内信用卡、PayPal、代付全方案](./chatgpt-buy-guide.md)
 - 哪种充值方式适合你：[ChatGPT充值方法推荐2026：国内开通Plus怎么选](./chatgpt-recharge-method.md)
 - 也想用 Claude 写代码：[Claude国内充值全指南2026](./claude-buy-guide.md)
