@@ -1,6 +1,6 @@
 ---
 title: ChatGPT Plus和Codex是什么关系？模型、额度与付费说明
-description: 讲清ChatGPT Plus与Codex的关系，更新GPT-6 Astra、GPT-6.1 Sol、Luna、Free与Go可用条件、订阅额度和API计费区别。
+description: 讲清ChatGPT Plus与Codex的关系，更新GPT-6 Astra、GPT-6.1 Sol、GPT-6.1 Terra、Luna、Free与Go可用条件、订阅额度和API计费区别。
 keywords:
   - ChatGPT Plus和Codex的关系
   - Codex是什么
@@ -28,7 +28,7 @@ tags:
 
 # ChatGPT Plus和Codex是什么关系？模型、额度与付费说明
 
-> **2026年11月9日更新：已核对官方模型与套餐说明；支付方式、可用地区和实际额度以账号页面为准。**
+> **2026年11月16日更新：已核对官方模型与套餐说明；支付方式、可用地区和实际额度以账号页面为准。**
 
 **Plus包含Codex使用权益，但“Codex必须先买Plus”和“使用Codex永远不额外收费”都不准确。** 免费入口、订阅额度、额外credits和API认证需要分开看。
 
@@ -48,11 +48,17 @@ Plus包含相应的Codex权益；Free、Go也有受开放进度限制的桌面�
 
 CLI和IDE支持ChatGPT登录或API Key认证；不能只凭“用了CLI”判断走哪条账单。
 
-## 2026年10月，Codex用哪些模型？
+## Codex用哪些模型？
 
-当前模型包括GPT-6 Astra、GPT-6.1 Sol、GPT-6 Sol与GPT-6 Luna。GPT-6.1 Sol可用于复杂编程和持续工作，Luna适合明确、重复的任务；可见选项以账号和客户端为准。
+当前模型包括GPT-6 Astra、GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Sol与GPT-6 Luna。GPT-6.1 Sol可用于复杂编程和持续工作，Luna适合明确、重复的任务；可见选项以账号和客户端为准。
 
-GPT-6.1 Sol、GPT-6 Sol、GPT-6 Luna在Work和Codex中提供，不在Chat中提供。
+GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Sol、GPT-6 Luna在Work和Codex中提供，不在Chat中提供。
+
+### Plus用户能用GPT-6.1 Terra吗？
+
+根据[10月26日官方更新](https://learn.chatgpt.com/docs/changelog)，Terra面向Plus、Pro、Business、Enterprise和Edu的Work/Codex开放，侧重图像理解、电脑操作和专业工作。已有Plus用户先查看当前入口与模型列表，无需仅为Terra再买一份订阅。
+
+在ChatGPT桌面端或网页版Work的Advanced模型列表查看GPT-6.1 Terra；Work移动端也支持。具体可见性受账号、开放进度与工作区设置影响。模型可用与是否已授权浏览器、桌面和应用操作是不同条件。
 
 在CLI中可用`/model`查看当前可选模型。模型切换不会自动授予文件访问、网络或其他执行权限。
 
@@ -64,7 +70,9 @@ GPT-5.5已于2026年10月14日从ChatGPT登录的Codex中退役；API和API Key�
 
 任务复杂度、上下文、所选模型与运行方式都会影响消耗。Work与Codex共享相应用量，不能把套餐理解为固定次数的所有任务通票。到用量页看余额和重置时间，再决定等待重置、加购或升级。
 
-Pro也不只一个200美元档：当前有100、200、500美元月费档位，详见官方定价与Pro充值教程。
+Pro也不只一个200美元档：当前有100、200、500美元月费档位，详见[Pro充值教程](./chatgpt-pro-recharge-guide.md)。最新Pro规则已取消Pro 200此前宣布的额度削减，Pro 100、Pro 500的Work/Codex额度也增加；Plus额度不变，见[官方说明](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers)。
+
+符合条件的Pro另有可激活的API credits福利，但它不增加ChatGPT或登录Codex的用量，也不覆盖通过API Key使用Codex的用量。不要把订阅额度、额外credits和API组织余额混为一谈，详见[福利规则](https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions)。
 
 ## 怎样开始使用？
 

@@ -1,5 +1,5 @@
 ---
-description: 更新Claude Fable 5.1、Opus 5.5、Sonnet 5.5和Haiku 5.5，讲清Pro、Max、API付款区别，纠正PayPal及Claude Code CLI计费误区。
+description: 更新Claude Fable 5.2、Opus 5.5、Sonnet 5.5和Haiku 5.5，讲清Pro、Max、API付款区别，纠正PayPal及Claude Code CLI计费误区。
 keywords:
   - claude国内充值
   - claude付款
@@ -18,7 +18,7 @@ keywords:
   - Claude API购买
   - 国内支付Claude
   - Claude代充
-  - Claude Fable 5.1
+  - Claude Fable 5.2
   - Claude Opus 5.5
   - Anthropic充值
   - Claude订阅
@@ -34,13 +34,15 @@ title: Claude国内充值全指南｜Pro、Max、API与Claude Code付款
 
 # Claude国内充值全指南｜Pro、Max、API与Claude Code付款
 
-> **2026年11月9日更新：已核对官方模型与套餐说明；支付方式、可用地区和实际额度以账号页面为准。**
+> **2026年11月16日更新：同步Fable 5.2发布、付费套餐可用范围及API说明；实际模型和额度以账号页面为准。**
 
 给Claude付款前，先确认买的是聊天与Claude Code订阅，还是程序调用所需的API用量。它们不能按同一条充值流程处理。
 
-## 2026年10月，Claude有哪些当前模型？
+## Claude有哪些当前模型？
 
-官方模型目录目前列出 **Claude Fable 5.1、Opus 5.5、Sonnet 5.5、Haiku 5.5**。它们分别面向复杂推理与长任务、编程及知识工作、速度与能力平衡、低延迟高频任务。
+当前模型包括 **Claude Fable 5.2、Opus 5.5、Sonnet 5.5、Haiku 5.5**。Anthropic 于 **2026年11月9日**发布 Fable 5.2，重点提升编程、推理和视觉能力；日常编程与知识工作也可以从 Opus 5.5 开始，见[官方模型介绍](https://www.anthropic.com/claude/fable)。
+
+Fable 5.2 面向 Pro、Max、Ultra、Team 和 Enterprise 用户提供，具体权限与额度以账号为准。已有 Pro/Max 用户应先检查模型选择器，无需仅因模型升级重复购买订阅；这也不代表 Fable 可以无限使用。官方同时发布的 Mythos 5.2 属于受限访问模型，普通订阅不等于获得该模型权限，见[官方发布说明](https://www.anthropic.com/claude-fable-and-mythos-5-2)。
 
 API 中存在某个模型，不代表每个 Claude 订阅都能无限使用它。聊天和 Claude Code 内能选哪些模型、还剩多少额度，要看自己的账号页面。
 
@@ -98,6 +100,12 @@ Claude 官方接受符合要求的信用卡和借记卡；**不接受 PayPal、V
 使用 Claude Console账单页，在具有 Admin 或 Billing 权限的组织中购买 credits，并检查用量和自动充值设置。App Store 礼品卡不能直接兑换成 Console 余额。
 
 Pro 订阅额度不能当作 API 余额。当前 Max、Team 另有月度 API credits 权益，需要关联 Console 组织并按规则领取；这部分 credits 有到期和用途限制，不能拿来支付 Claude Code 或 Claude App 的额外用量。领取和使用规则请查看对应官方说明。
+
+## Fable 5.2的API价格与订阅费用有什么区别？
+
+Fable 5.2 的标准 API 价格为每百万输入 tokens 8 美元、输出 tokens 40 美元，低于 Fable 5.1 的 10 / 50 美元。这个价格是 API 调用单价，不是 Pro/Max 的会员月费；缓存、快速模式等应另看[官方定价说明](https://www.anthropic.com/claude/fable)。
+
+API 模型 ID 为 `claude-fable-5-2`。已有程序需检查实际配置，不会因为订阅续费就自动切换模型；参数兼容性见[官方迁移指南](https://platform.claude.com/docs/en/models/fable-5-2/migration-guide)。
 
 ## 常见问题
 

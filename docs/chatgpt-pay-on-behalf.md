@@ -25,17 +25,17 @@ tags:
 
 # ChatGPT如何让别人代付？朋友代付、礼品卡与卡密对比
 
-> **2026年11月9日更新：已核对官方模型与套餐说明；支付方式、可用地区和实际额度以账号页面为准。**
+> **2026年11月16日更新：已核对官方模型与套餐说明；支付方式、可用地区和实际额度以账号页面为准。**
 
 自己缺少可用付款方式，找人帮忙之前，要先确认买的是自己的订阅，以及下一期由谁续费。付款帮助不需要以交出账号控制权为前提。
 
-## 2026年10月，模型和订阅要怎么区分？
+## 模型和订阅要怎么区分？
 
 购买的是 ChatGPT 订阅，而不是某个模型的永久使用权。ChatGPT 的 Chat、Work 与 Codex 入口也不能混为一谈。
 
-当前 Work/Codex 的模型包括 **GPT-6 Astra、GPT-6.1 Sol、GPT-6 Sol 和 GPT-6 Luna**；其中 GPT-6.1 Sol、GPT-6 Sol、GPT-6 Luna 不在 Chat 中提供。实际选项取决于套餐、客户端和开放进度。
+当前 Work/Codex 的模型包括 **GPT-6 Astra、GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Sol 和 GPT-6 Luna**；其中 GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Sol、GPT-6 Luna 不在 Chat 中提供。实际选项取决于套餐、客户端和开放进度。
 
-如果主要用来写代码，可以先看 Plus 与 Codex 的关系，再决定是否付费升级。
+GPT-6.1 Terra 于 10 月 26 日加入 Work/Codex，侧重图像理解与电脑操作，开放情况见[官方更新日志](https://learn.chatgpt.com/docs/changelog)。如果主要用来写代码，可以先看 [Plus 与 Codex 的关系](./chatgpt-plus-codex.md)，再决定是否付费升级。
 
 ## 方式一：朋友帮助完成官方付款
 

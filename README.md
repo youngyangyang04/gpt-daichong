@@ -4,13 +4,24 @@
 
 > **安全提示：** 第三方充值服务可能需要额外的账号授权信息，请充分了解其安全风险，不要向任何不可信第三方提供密码、验证码、Cookie、Session Token 或 API Key。
 
-> 本文更新于 2026 年 11 月 9 日。**如果你对有帮助的话，希望给一个小⭐️⭐️支持一下，本教程持续更新**。
+> 本文更新于 2026 年 11 月 16 日。**如果对你有帮助的话，希望给一个小⭐️⭐️支持一下，本教程持续更新**。
 
-OpenAI 目前已经恢复 GPT Pro 订阅，不过套餐额度由此前的 20X 减半调整为 10X。
+## ChatGPT最近动态
 
-现在可以正常订阅或续费 Pro 10X，具体额度和可用功能请以 ChatGPT 账号内实际显示为准。
+| 本次更新 | 对订阅和充值的影响 | 详细说明 |
+| --- | --- | --- |
+| Pro 额度调整 | Pro 200 此前宣布的额度削减已取消；Pro 100、Pro 500 的 Work/Codex 额度增加，Plus 不变 | [Pro 档位与额度教程](./docs/chatgpt-pro-recharge-guide.md) · [官方说明](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers) |
+| Pro API credits 福利 | 符合条件的 Pro 可激活 API credits；它与 ChatGPT、Codex 用量分开 | [福利领取与限制](./docs/chatgpt-pro-recharge-guide.md#买-pro-现在能领取-api-credits-吗) · [官方规则](https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions) |
+| Claude Fable 5.2 | 同步 11 月 9 日发布的新模型、付费套餐可用范围与 API 说明 | [Claude 充值教程](./docs/claude-recharge-guide.md) · [官方发布](https://www.anthropic.com/claude-fable-and-mythos-5-2) |
+| GPT-6.1 Terra | 10 月 26 日加入 Work/Codex，补充模型入口与 Plus 可用条件 | [Plus 与 Codex 教程](./docs/chatgpt-plus-codex.md) · [官方日志](https://learn.chatgpt.com/docs/changelog) |
+| Images 2.6 与 Wallet | 补充图片功能和 agent 购物付款说明，避免与会员充值混淆 | [下方常见问题](#常见问题) · [官方发布记录](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 
-以下讲一讲人在国内，没有海外信用卡，怎么把自己的 ChatGPT 账号升级成 Plus/Pro（5X/10X）？
+当前 Pro 有 100、200、500 美元/月三个档位。Pro 200 原较低的 Work/Codex 额度已翻倍并与较高额度统一；已有较高额度的用户保留原额度。已有订阅无需取消重买即可获得适用调整，具体权益以账号显示为准。
+
+
+## ChatGPT充值方法
+
+以下讲一讲人在国内，没有海外信用卡，怎么把自己的 ChatGPT 账号升级成 Plus/Pro？
 
 目前常见的方法包括虚拟信用卡、美区 Apple ID、找朋友代付、共享账号和第三方代充。看起来每条路都能走，真正操作时却各有门槛：有的容易支付失败，有的流程复杂，还有的虽然便宜，却无法保障聊天记录和账号安全。
 
@@ -32,10 +43,10 @@ OpenAI 目前已经恢复 GPT Pro 订阅，不过套餐额度由此前的 20X �
 - 不想研究虚拟卡和账单地址；
 - 不想折腾美区 Apple ID；
 - 使用安卓或 Windows，没有苹果设备；
-- 临时急用 Plus/Pro（5X/10X），希望尽快完成充值；
+- 临时急用 Plus/Pro，希望尽快完成充值；
 - **公司付款，需要发票用于报销**。（这一点对我很重要）
 
-代充网站的基本流程是：使用人民币购买 ChatGPT Plus/Pro（5X/10X）充值服务，支付后获得卡密，再按照平台的最新教程，把会员充值到自己的 ChatGPT 账号。
+代充网站的基本流程是：使用人民币购买 ChatGPT Plus/Pro 充值服务，支付后获得卡密，再按照平台的最新教程，把会员充值到自己的 ChatGPT 账号。
 
 这里推荐使用 [ChatGPT PLUS/Pro充值服务](https://payai.plus/)，支持微信、支付宝支付。
 
@@ -51,19 +62,20 @@ OpenAI 目前已经恢复 GPT Pro 订阅，不过套餐额度由此前的 20X �
 
 ### GPT 更新后还能不能充值？
 
-充值购买的是 **ChatGPT Plus/Pro（5X/10X）会员**，不是单独购买某一个模型。充值成功后，可以使用哪些模型和功能，以 OpenAI 当时向该套餐、账号和地区实际开放的内容为准。
+充值购买的是 **ChatGPT Plus/Pro 会员**，不是单独购买某一个模型。充值成功后，可以使用哪些模型和功能，以 OpenAI 当时向该套餐、账号和地区实际开放的内容为准。
 
-OpenAI 已发布最新旗舰模型 **GPT-6 Astra**，适用于复杂推理、编程、研究和端到端任务。模型会按套餐、账号和地区逐步开放，是否可用请以 ChatGPT 账号中的模型列表为准。
+模型与套餐分别更新。GPT-6.1 Terra 已加入 Work/Codex，但不在 Chat 中提供；不能只根据模型名称判断充值商品。具体入口、模型和额度见 [Plus 与 Codex 教程](./docs/chatgpt-plus-codex.md)，并以账号实际显示为准。
 
-持续复测记录：
+更新与验证记录（资料核对与历史实测分别标注）：
 
-- **2026 年 10 月 3 日**：OpenAI 恢复 GPT Pro 订阅；套餐额度由此前的 20X 减半调整为 10X。
-- **2026 年 9 月 8 日**：GPT-6 Astra 发布后更新模型说明；充值购买的仍是 Plus/Pro 会员，具体模型权限以账号实际开放情况为准。
-- **2026 年 7 月 31 日**：第三方服务页面、微信支付和卡密充值流程再次检查，方案仍可用。
-- **2026 年 7 月 9 日**：GPT-5.6 Sol、Terra、Luna 发布后复测，方案仍可用。
-- **2026 年 4 月 24 日**：GPT-5.5 发布后复测，方案仍可用。
-- **2026 年 4 月 21 日**：GPT Image 2 发布后复测，方案仍可用。
-- **2026 年 3 月 5 日**：GPT-5.4 发布后复测，方案仍可用。
+- **2026 年 11 月 16 日｜官方资料核对**：修正 Pro 额度说明，补充 API credits 福利、GPT-6.1 Terra、Images 2.6 与 Wallet，并同步 Claude Fable 5.2；未重新进行第三方付款实测。
+- **2026 年 10 月 3 日｜历史资料记录，已被新规则替代**：当时记录 Pro 恢复订阅与额度调整；当前应查看上方最新说明。
+- **2026 年 9 月 8 日｜模型资料更新**：GPT-6 Astra 发布后更新模型说明；充值购买的仍是 Plus/Pro 会员，具体模型权限以账号实际开放情况为准。
+- **2026 年 7 月 31 日｜历史实测记录**：第三方服务页面、微信支付和卡密充值流程再次检查，方案仍可用。
+- **2026 年 7 月 9 日｜历史实测记录**：GPT-5.6 Sol、Terra、Luna 发布后复测，方案仍可用。
+- **2026 年 4 月 24 日｜历史实测记录**：GPT-5.5 发布后复测，方案仍可用。
+- **2026 年 4 月 21 日｜历史实测记录**：GPT Image 2 发布后复测，方案仍可用。
+- **2026 年 3 月 5 日｜历史实测记录**：GPT-5.4 发布后复测，方案仍可用。
 
 ### 选择代充平台时看什么？
 
@@ -184,7 +196,7 @@ OpenAI 已发布最新旗舰模型 **GPT-6 Astra**，适用于复杂推理、编
 
 ## 常见问题
 
-### 国内没有海外信用卡，怎么充值 ChatGPT Plus/Pro（5X/10X）？
+### 国内没有海外信用卡，怎么充值 ChatGPT Plus/Pro？
 
 不想折腾虚拟卡或美区 Apple ID，可以选择支持人民币付款的第三方代充平台。本文实际测试的是[前文提到的第三方服务](https://payai.plus/)：付款后获取卡密，再按照平台教程自助充值。
 
@@ -211,6 +223,18 @@ OpenAI 已发布最新旗舰模型 **GPT-6 Astra**，适用于复杂推理、编
 ### ChatGPT Plus 包含 API 额度吗？
 
 不包含。ChatGPT Plus 是 ChatGPT 产品订阅，OpenAI API 使用另一套独立计费体系。
+
+### 买 Pro 现在能领取 API credits 吗？
+
+符合条件的付费 Pro 可激活 API credits 福利，Plus 不在该福利范围内。领取需满足订阅时长、账号和 API 组织要求；不是付款后自动到账，也不会增加 ChatGPT 或登录 Codex 的用量。详见 [Pro 福利与领取步骤](./docs/chatgpt-pro-recharge-guide.md#买-pro-现在能领取-api-credits-吗)。
+
+### Images 2.6 更新后，需要重新购买会员吗？
+
+不用仅因模型更新重复购买会员。OpenAI 于 11 月 4 日发布 Images 2.6，改进图片编辑的一致性，并逐步推出 GIF 生成和保存参考图功能。是否可用仍取决于套餐、账号和开放进度，见[官方发布记录](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)。
+
+### ChatGPT Wallet 是新的会员充值方式吗？
+
+11 月 13 日公布的 Wallet 用于让 agent 经用户批准完成购物，正在向符合条件的美国成年 Pro 用户逐步开放，并要求符合条件的美国发行卡及美国账单地址。这不是新增支付宝或微信订阅入口，见[官方说明](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)。
 
 
 

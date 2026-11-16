@@ -1,19 +1,21 @@
 ---
-title: Claude Pro充值教程｜Fable 5.1、Opus 5.5与人民币付款
-description: 2026年10月Claude Pro充值指南，更新Fable 5.1、Opus 5.5、Sonnet 5.5、Haiku 5.5、订阅价格、Code额度及官方付款限制。
-keywords: [Claude Pro充值, Claude订阅, Claude Fable 5.1充值, Claude Opus 5.5, 支付宝充值Claude, 微信充值Claude, Claude Pro代充, 国内充值Claude, Claude Max订阅, Anthropic充值]
+title: Claude Pro充值教程｜Fable 5.2、Opus 5.5与人民币付款
+description: 2026年11月16日版Claude Pro充值指南，更新Fable 5.2、Opus 5.5、Sonnet 5.5、Haiku 5.5、订阅价格、Code额度及官方付款限制。
+keywords: [Claude Pro充值, Claude订阅, Claude Fable 5.2充值, Claude Opus 5.5, 支付宝充值Claude, 微信充值Claude, Claude Pro代充, 国内充值Claude, Claude Max订阅, Anthropic充值]
 tags: [Claude充值, AI工具订阅, Claude Pro]
 ---
 
-# Claude Pro充值教程｜Fable 5.1、Opus 5.5与人民币付款
+# Claude Pro充值教程｜Fable 5.2、Opus 5.5与人民币付款
 
-> **2026年11月9日更新：已核对官方模型与套餐说明；支付方式、可用地区和实际额度以账号页面为准。**
+> **2026年11月16日更新：同步Fable 5.2发布、付费套餐可用范围及API说明；实际模型和额度以账号页面为准。**
 
 想体验Claude的新模型，不必直接买最高档。先确认模型和额度需求，再比较Pro、Max与API；不要把第三方人民币支付等同于官方付款渠道。
 
-## 2026年10月，Claude有哪些当前模型？
+## Claude有哪些当前模型？
 
-官方模型目录目前列出 **Claude Fable 5.1、Opus 5.5、Sonnet 5.5、Haiku 5.5**。它们分别面向复杂推理与长任务、编程及知识工作、速度与能力平衡、低延迟高频任务。
+当前模型包括 **Claude Fable 5.2、Opus 5.5、Sonnet 5.5、Haiku 5.5**。Anthropic 于 **2026年11月9日**发布 Fable 5.2，重点提升编程、推理和视觉能力；日常编程与知识工作也可以从 Opus 5.5 开始，见[官方模型介绍](https://www.anthropic.com/claude/fable)。
+
+Fable 5.2 面向 Pro、Max、Ultra、Team 和 Enterprise 用户提供，具体权限与额度以账号为准。已有 Pro/Max 用户应先检查模型选择器，无需仅因模型升级重复购买订阅；这也不代表 Fable 可以无限使用。官方同时发布的 Mythos 5.2 属于受限访问模型，普通订阅不等于获得该模型权限，见[官方发布说明](https://www.anthropic.com/claude-fable-and-mythos-5-2)。
 
 API 中存在某个模型，不代表每个 Claude 订阅都能无限使用它。聊天和 Claude Code 内能选哪些模型、还剩多少额度，要看自己的账号页面。
 

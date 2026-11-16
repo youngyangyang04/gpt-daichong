@@ -1,23 +1,23 @@
 ---
 title: 国内ChatGPT充值教程｜Plus订阅与支付宝微信付款说明
-description: 2026年10月更新，讲清ChatGPT Plus订阅、Work与Codex模型、官方付款和第三方人民币卡密的区别，附操作步骤及账号核对方法。
+description: 2026年11月16日更新，讲清ChatGPT Plus订阅、Work与Codex模型、官方付款和第三方人民币卡密的区别，附操作步骤及账号核对方法。
 keywords: [ChatGPT充值, ChatGPT Plus充值, GPT-6订阅, 支付宝充值ChatGPT, 微信充值ChatGPT, ChatGPT代充, 国内充值ChatGPT, GPT-6, ChatGPT支付方式]
 tags: [ChatGPT充值, GPT订阅, AI工具充值]
 ---
 
 # 国内ChatGPT充值教程｜Plus订阅与支付宝微信付款说明
 
-> **2026年11月9日更新：已核对官方模型与套餐说明；支付方式、可用地区和实际额度以账号页面为准。**
+> **2026年11月16日更新：已核对官方模型与套餐说明；支付方式、可用地区和实际额度以账号页面为准。**
 
 想升级 ChatGPT，先分清套餐、模型和付款渠道。用支付宝或微信向第三方付款，与在 OpenAI 官网直接订阅，后续管理和售后责任并不相同。
 
-## 2026年10月，模型和订阅要怎么区分？
+## 模型和订阅要怎么区分？
 
 购买的是 ChatGPT 订阅，而不是某个模型的永久使用权。ChatGPT 的 Chat、Work 与 Codex 入口也不能混为一谈。
 
-当前 Work/Codex 的模型包括 **GPT-6 Astra、GPT-6.1 Sol、GPT-6 Sol 和 GPT-6 Luna**；其中 GPT-6.1 Sol、GPT-6 Sol、GPT-6 Luna 不在 Chat 中提供。实际选项取决于套餐、客户端和开放进度。
+当前 Work/Codex 的模型包括 **GPT-6 Astra、GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Sol 和 GPT-6 Luna**；其中 GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Sol、GPT-6 Luna 不在 Chat 中提供。实际选项取决于套餐、客户端和开放进度。
 
-如果主要用来写代码，可以先看 Plus 与 Codex 的关系，再决定是否付费升级。
+GPT-6.1 Terra 于 10 月 26 日加入 Work/Codex，侧重图像理解与电脑操作，开放情况见[官方更新日志](https://learn.chatgpt.com/docs/changelog)。如果主要用来写代码，可以先看 [Plus 与 Codex 的关系](./chatgpt-plus-codex.md)，再决定是否付费升级。
 
 ## Plus和Pro怎么选？
 

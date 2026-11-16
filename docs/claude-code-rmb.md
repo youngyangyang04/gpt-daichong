@@ -1,6 +1,6 @@
 ---
 title: Claude Code能支付人民币吗？订阅、CLI与苹果手机付款说明
-description: 说明人民币付款、Claude Pro和Max订阅、Claude Code CLI与API的关系，纠正命令行只能充值API的旧说法，更新当前模型与苹果手机购买条件。
+description: 说明人民币付款、Claude Pro和Max订阅、Claude Code CLI与API的关系，纠正命令行只能充值API的旧说法，同步Fable 5.2可用范围与苹果手机购买条件。
 keywords:
   - Claude Code能支付人民币吗
   - Claude Code苹果手机购买
@@ -26,13 +26,15 @@ tags:
 
 # Claude Code能支付人民币吗？订阅、CLI与苹果手机付款说明
 
-> **2026年11月9日更新：已核对官方模型与套餐说明；支付方式、可用地区和实际额度以账号页面为准。**
+> **2026年11月16日更新：同步Fable 5.2发布、付费套餐可用范围及API说明；实际模型和额度以账号页面为准。**
 
 **Claude Code不因使用命令行就必须充值API。** 人民币能否付款，要看采用官方结账、App内购买还是第三方服务，不能只看使用的是网页还是CLI。
 
-## 2026年10月，Claude有哪些当前模型？
+## Claude有哪些当前模型？
 
-官方模型目录目前列出 **Claude Fable 5.1、Opus 5.5、Sonnet 5.5、Haiku 5.5**。它们分别面向复杂推理与长任务、编程及知识工作、速度与能力平衡、低延迟高频任务。
+当前模型包括 **Claude Fable 5.2、Opus 5.5、Sonnet 5.5、Haiku 5.5**。Anthropic 于 **2026年11月9日**发布 Fable 5.2，重点提升编程、推理和视觉能力；日常编程与知识工作也可以从 Opus 5.5 开始，见[官方模型介绍](https://www.anthropic.com/claude/fable)。
+
+Fable 5.2 面向 Pro、Max、Ultra、Team 和 Enterprise 用户提供，具体权限与额度以账号为准。已有 Pro/Max 用户应先检查模型选择器，无需仅因模型升级重复购买订阅；这也不代表 Fable 可以无限使用。官方同时发布的 Mythos 5.2 属于受限访问模型，普通订阅不等于获得该模型权限，见[官方发布说明](https://www.anthropic.com/claude-fable-and-mythos-5-2)。
 
 API 中存在某个模型，不代表每个 Claude 订阅都能无限使用它。聊天和 Claude Code 内能选哪些模型、还剩多少额度，要看自己的账号页面。
 
@@ -85,6 +87,10 @@ Pro月付20美元，年付200美元；Max的100、200美元月费档提供更高
 使用 Claude Console账单页，在具有 Admin 或 Billing 权限的组织中购买 credits，并检查用量和自动充值设置。App Store 礼品卡不能直接兑换成 Console 余额。
 
 Pro 订阅额度不能当作 API 余额。当前 Max、Team 另有月度 API credits 权益，需要关联 Console 组织并按规则领取；这部分 credits 有到期和用途限制，不能拿来支付 Claude Code 或 Claude App 的额外用量。领取和使用规则请查看对应官方说明。
+
+## Fable 5.2发布后，Claude Code需要重新充值吗？
+
+已有有效订阅时，先检查 Claude Code 的登录方式、可选模型和剩余额度。选择 API 认证的任务则需检查 API 模型 ID 与账单，不能仅凭 Claude App 中已订阅就判断 CLI 免费。Fable 5.2 的 API ID 是 `claude-fable-5-2`，迁移规则见[官方指南](https://platform.claude.com/docs/en/models/fable-5-2/migration-guide)。
 
 ## 常见问题
 

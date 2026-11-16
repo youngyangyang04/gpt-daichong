@@ -1,6 +1,6 @@
 ---
 title: ChatGPT Pro充值教程｜100、200、500美元档位与国内付款
-description: 更新ChatGPT Pro的100、200、500美元月费档位，解释旧称5x和20x的使用边界、Codex模型、人民币卡密购买及套餐到账核对步骤。
+description: 更新ChatGPT Pro的100、200、500美元月费档位，补充额度调整、API credits福利、Terra模型、人民币卡密购买及套餐到账核对步骤。
 keywords:
   - ChatGPT Pro充值
   - ChatGPT Pro充值教程
@@ -34,16 +34,16 @@ tags:
   - OpenAI支付
 faq:
   - q: "ChatGPT Pro当前有哪些月费档位？"
-    a: "截至2026年10月20日，官方定价页列出100、200、500美元月费档位，最终价格、税费和权益以账号结账页为准。"
+    a: "截至2026年11月16日，官方定价页列出100、200、500美元月费档位，最终价格、税费和权益以账号结账页为准。"
   - q: "ChatGPT Pro包含OpenAI API余额吗？"
-    a: "不包含。ChatGPT订阅和OpenAI API分开计费，使用API Key认证时应查看对应API账单。"
+    a: "符合条件的付费Pro可激活API credits福利，需关联API组织并核对到账；ChatGPT和API仍分开计费，福利不增加登录Codex的用量。"
   - q: "第三方人民币充值后怎样确认到账？"
     a: "回到ChatGPT账号内检查订阅名称、有效期和用量权益，仅有第三方订单付款成功提示还不够。"
 ---
 
 # ChatGPT Pro充值教程｜100、200、500美元档位与国内付款
 
-> **2026年11月9日更新：已核对官方模型与套餐说明；支付方式、可用地区和实际额度以账号页面为准。**
+> **2026年11月16日更新：已核对官方模型与套餐说明；支付方式、可用地区和实际额度以账号页面为准。**
 
 Plus频繁到用量上限时，可以比较Pro，但先看自己耗在哪类任务上。当前Pro已列有100、200、500美元三个月费档位。
 
@@ -60,19 +60,25 @@ Plus频繁到用量上限时，可以比较Pro，但先看自己耗在哪类任�
 
 网页标价不等于最终含税金额，也不等于第三方人民币商品售价。
 
+## 之前听说Pro额度减半，现在是什么规则？
+
+截至2026年11月16日，[官方Pro说明](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers)已取消此前宣布的Pro 200额度削减。原较低的Work/Codex额度翻倍并统一；原较高额度保持。Pro 100、Pro 500的Work/Codex额度也翻倍，Plus不变。
+
+已有订阅自动获得适用调整，无需等续费，也无需取消重买。额度增加不保证完成任务数等比例增加；Chat中的消息限制与Work/Codex额度也应分别查看。
+
 ## 旧称Pro 5x、Pro 20x还能直接照着买吗？
 
 部分文章和商家仍使用5x、20x区分100、200美元档位。**实际权益以当前账号内显示的套餐为准。** 下单时要核对对应的官方套餐和实际到账结果。
 
 5x、20x不代表回答质量或智能水平提高相同倍数。不同任务和模型的消耗不同，准确额度和重置时间应查看当前账号用量页。
 
-## 2026年10月，模型和订阅要怎么区分？
+## 模型和订阅要怎么区分？
 
 购买的是 ChatGPT 订阅，而不是某个模型的永久使用权。ChatGPT 的 Chat、Work 与 Codex 入口也不能混为一谈。
 
-当前 Work/Codex 的模型包括 **GPT-6 Astra、GPT-6.1 Sol、GPT-6 Sol 和 GPT-6 Luna**；其中 GPT-6.1 Sol、GPT-6 Sol、GPT-6 Luna 不在 Chat 中提供。实际选项取决于套餐、客户端和开放进度。
+当前 Work/Codex 的模型包括 **GPT-6 Astra、GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Sol 和 GPT-6 Luna**；其中 GPT-6.1 Sol、GPT-6.1 Terra、GPT-6 Sol、GPT-6 Luna 不在 Chat 中提供。实际选项取决于套餐、客户端和开放进度。
 
-如果主要用来写代码，可以先看 Plus 与 Codex 的关系，再决定是否付费升级。
+GPT-6.1 Terra 于 10 月 26 日加入 Work/Codex，侧重图像理解与电脑操作，开放情况见[官方更新日志](https://learn.chatgpt.com/docs/changelog)。如果主要用来写代码，可以先看 [Plus 与 Codex 的关系](./chatgpt-plus-codex.md)，再决定是否付费升级。
 
 ## 什么时候值得从Plus升级？
 
@@ -119,7 +125,7 @@ Plus频繁到用量上限时，可以比较Pro，但先看自己耗在哪类任�
 
 **ChatGPT Pro包含API余额吗？**
 
-不包含。OpenAI API账单与ChatGPT订阅分开；CLI使用API Key时，也不会因为有Pro就自动免单。
+符合条件的付费Pro可领取API credits福利，但需激活并核对接收的API组织。ChatGPT与API仍分开计费；该福利不覆盖通过API Key使用Codex的用量。领取步骤与限制见下节。
 
 **第三方当前支持支付宝还是微信？**
 
@@ -132,6 +138,18 @@ Plus频繁到用量上限时，可以比较Pro，但先看自己耗在哪类任�
 **发票和退款在哪里处理？**
 
 按原付款渠道查看规则。第三方的开票期限和退款条件请直接阅读其当前[开票指引](https://payai.plus/invoice-guide)与[售后政策](https://payai.plus/refund-policy)，不要沿用历史承诺。
+
+## 买 Pro 现在能领取 API credits 吗？
+
+符合条件的Pro 100、200、500付费订阅可领取API credits福利；Plus不在范围内。订阅须已生效至少7天，领取人须拥有订阅及接收额度的API组织，并使用相同邮箱关联。福利可见性还取决于开放批次和国家/地区，具体资格见[官方福利规则](https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions)。
+
+1. 在ChatGPT中打开Settings → Billing，找到API credits福利入口。
+2. 核对要关联的API组织、可领取金额和有效期，再激活。
+3. 到API Platform的Billing / Credit grants确认到账；订阅成功本身不代表API额度已发放。
+
+完整月度周期的Pro 100、200、500分别对应100、200、500美元API额度，首期按剩余付费周期折算。额度到周期结束时过期、不结转，后续发放取决于福利继续提供及订阅持续符合条件。
+
+这部分额度归关联的API组织，不增加ChatGPT或登录Codex的额度，也不覆盖通过API Key使用Codex的用量。不要将它当成可提现余额或额外会员时长。
 
 ## 付款前后要检查什么？
 
